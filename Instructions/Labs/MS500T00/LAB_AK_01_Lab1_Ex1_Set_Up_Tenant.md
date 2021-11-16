@@ -274,6 +274,8 @@ In a later lab, you will create Alert Policies using the Security and Compliance
 1. In the **Audit log search** window, at the top right of the page, select **Turn on auditing,** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**. 
 
 	**Note**: 'Audit Log' will be turned on by defualt for MS 365 and Office 365 Enterprise organizations. If there is no prompt to 'Turn On' audit log on that page, that means 'Audit Log' has been turned on by default.
+	
+	![](../Media/ms-500-image-31.jpg)
 
 1. Leave the Client 1 VM and the Security and Compliance Center open.
 

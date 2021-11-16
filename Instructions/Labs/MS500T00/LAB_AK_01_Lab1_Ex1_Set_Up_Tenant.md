@@ -43,7 +43,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 1. If a **Set your time zone** window appears, select **set the time zone for your calendar**. In the **Outlook** window that opens, under **Time zone,** select your time zone and select **Save**, then close your browser window and re-open the **Microsoft Office Home** page by entering the following URL in the address bar: `https://portal.office.com/`.
 
-1. If a **Good morning/afternoon/evening MOD Administrator** window appears, select **Get started**.
+1. If a **Good morning/afternoon/evening** window appears, select **Get started**.
 
 1. In the **Microsoft Office Home** page, select the **Admin** icon in the column of app icons on the left. This opens the **Microsoft 365 admin center.**
 

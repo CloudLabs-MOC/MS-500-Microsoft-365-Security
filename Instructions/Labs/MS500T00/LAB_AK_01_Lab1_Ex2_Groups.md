@@ -27,15 +27,21 @@ In this task, you will create two new groups and then manage the groups by assig
 
 1. In the **Office 365 home page**, select **Admin** to open the Microsoft 365 admin center (if **Admin** is covered by an **Office 365 apps** box, select **Got it!** to close the box).
 
+	![](../Media/2.png)
+
 1. If a survey window appears, select **Cancel**.
 
-1. In the **Microsoft 365 admin center**, select **Groups** in the left navigation pane, and then under it, select **Active Groups**. 
+1. In the **Microsoft 365 admin center**, select **Teams & Groups** in the left navigation pane, and then under it, select **Active Teams & Groups**. 
 
-1. In the **Active Groups** page, select **Add a group** that appears on the menu bar above the list of groups.  
+	![](../Media/3.png)
+
+1. In the **Active Teams & Groups** page, select **Add a group** that appears on the menu bar above the list of groups.  
 
 1. In the **Choose a group type** window, select **Microsoft 365 (recommended)** and then select **Next**. 
 
 1. In the **Set up the basics** window, enter `Inside Sales` in the **Name** field, and then enter `Collaboration group for the Inside Sales team.` in the **Description** field. Select **Next**.
+
+	![](../Media/4.png)
 
 1. In the **Assign Owners** window, you will assign Allan Deyoung and Patti Fernandez as owners of this group. 
 	- Enter `Allan` in the **Owners** field. In the drop-down menu that appears, select **Allan Deyoung**. 
@@ -45,6 +51,8 @@ In this task, you will create two new groups and then manage the groups by assig
 1. Leave default settings and click 'Next' under Members.
 
 1. In the **Edit settings** window, enter `insidesales` in the **Group email address** field. Under the **Privacy** section, verify the **Public** option is selected (select it if need be), and under the **Add Microsoft Teams to your group** section, verify the **Create a team for this group** checkbox is selected (select it if need be). Select **Next**. 
+
+	![](../Media/5.png)
 
 1. In the **Review and finish adding group** window, review the content that you entered. If everything is correct, select **Create group**; otherwise, select **Back** and fix anything that needs correction (or select **Edit** under the specific area that needs adjustment).
 
@@ -60,6 +68,8 @@ In this task, you will create two new groups and then manage the groups by assig
 
 	- Description: `IT administrative personnel` <br/>
 
+	![](../Media/6.png)
+
 	**Note:** there is no owner, email address, or privacy setting for Security groups
 
 1. If either of the two new groups do not appear in the **Groups** list, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional few minutes for both groups to appear.
@@ -72,9 +82,13 @@ In this task, you will create two new groups and then manage the groups by assig
 
 1. Under the **Members** section, you can see the two owners (Allan and Patti), but you can also see that there are zero (0) members. Select **View all and manage members** to add members to the group. 
 
+	![](../Media/7.png)
+
 1. In the **Inside Sales** group window, select **+ Add members**. This displays the list of current users.
 
 1. In the list of users, select **Diego Siciliani** and **Lynne Robbins**, and then scroll to the bottom and select **Add (2)**. 
+
+	![](../Media/8.png)
 
 1. Select **Back arrow**. 
 
@@ -111,6 +125,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 	- You must run the following command to connect with an authenticated account to use Active Directory cmdlet requests: <br/> 
 	
+		`Install-Module AzureAD`
 		`Connect-AzureAD`   
 
 	- A new window will appear requesting your credentials. Sign in using Holy's Microsoft 365 account of **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and **Pa55w.rd** as the Password.  
@@ -140,6 +155,8 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 1. You now want to verify that the recovery process correctly updated the group's membership. From the **Groups** windows, select the **Inside Sales** group.
 
 1. In the **Inside Sales** window, select the **Members** tab. **Allan Deyoung** and **Patti Fernandez** should appear as owners of the group, and **Diego Siciliani** and **Lynne Robbins** should appear as members of the group.
+
+	![](../Media/9.png)
 
 1. Close the **Inside Sales** window.
 

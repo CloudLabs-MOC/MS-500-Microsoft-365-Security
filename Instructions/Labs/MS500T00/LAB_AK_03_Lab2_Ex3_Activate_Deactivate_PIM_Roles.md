@@ -17,26 +17,15 @@ When you need to take on an Azure AD directory role, you can request activation 
 
      ![Screenshot](../Media/a7af9dbc-d901-4c9e-9cd5-63fd30726639.png)
 
-1.  Click `Billing Administrator` and add Patti Fernandez back into the **Billing Administrators** role.
+1.  Search `Billing Administrator` and click on **+Add Assignment** and select Patti Fernandez back into the **Billing Administrators** role.
 
+     ![](../Media/62.png)
 
 1.  Open an **In Private** browsing session and navigate to `https://portal.azure.com` and login as **Patti** using her UPN. example PattiF@YourTenantHere.onmicrosoft.com with the password given by your lab hoster (hint: the password is likely the same as the MOD Administrator password).  
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
-
-1.  Click **Azure AD roles**.
-
-1.  Click **Quick start** and click **Activate your role**.
-
-1.  On the Billing Administrator role, scroll to the right and click **Activate**.
-
-     ![Screenshot](../Media/bd3d79a3-a66d-48a5-8b2e-94c18358b250.png)
-
-1.  Click **Verify your identity before proceeding** if this appears here. You only have to authenticate once per session. Run through the wizard to authenticate Patti.
- 
-1.  Once returned to the Azure Portal, click **All services** and search for and select `Azure AD Privileged Identity Management`.
 
 1.  Select **Azure AD Roles** then click **Activate your role** on the Quick start blade.
 
@@ -78,6 +67,8 @@ You can view the status of your pending requests to activate.
 
 1.  Click **Pending requests** to see a list of your requests.
 
+     ![](../Media/63.png)
+
 
 ### Task 4: Deactivate a role
 
@@ -85,8 +76,6 @@ You can view the status of your pending requests to activate.
 Once a role has been activated, it automatically deactivates when its time limit (eligible duration) is reached.
 
 If you complete your administrator tasks early, you can also deactivate a role manually in Azure AD Privileged Identity Management.
-
-
 
 1.  Still signed in as **Patti**, open Azure AD Privileged Identity Management.
 

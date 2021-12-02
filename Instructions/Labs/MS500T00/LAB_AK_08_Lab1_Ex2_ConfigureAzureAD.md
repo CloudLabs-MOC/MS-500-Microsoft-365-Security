@@ -39,13 +39,19 @@ You have now configured your tenant so that all users can enroll their clients t
 
 6. Below this field, in the **Selected** section click **No member selected**.
 
+   ![](../Media/85.png)
+
 7. In the **Members allowed to join devices** window, select **+Add**
 
 8. In the **Add members** pane on the right, select **Alex Wilber** , select **Select** at the bottom of the screen, and then select **Ok**.
 
-9. Back in the **Device settings** detail pane on the right, scroll down and verify that **Devices to be Azure AD joined or Azure AD registered require Multi-Factor Authentication** is set to **No**. The **Maximum number of devices per user** property is currently set to **50.** Select **10** from the drop down box.
+   ![](../Media/86.png)
+
+9. Back in the **Device settings** detail pane on the right, scroll down and verify that **Require Multi-Factor Authentication to register or join devices with Azure AD** is set to **No**. The **Maximum number of devices per user** property is currently set to **50.** Select **10** from the drop down box.
 
 10. In the menu bar at the top of the detail pane, select **Save**.
+
+   ![](../Media/87.png)
 
 11. Leave the Azure portal open for the next task.
 
@@ -67,6 +73,8 @@ You have changed the default settings for users to join their devices to your Az
     - Membership type: **Dynamic Device**
     - Owner: select the **No owners selected** link, then in the **Add Owners** window, select `Alex Wilber` and select **Select**.
 
+   ![](../Media/88.png)
+
 5. Under **Dynamic device members**, click **Add dynamic query**.
 
 6. On the **Dynamic membership rules** pane, configure the following fields for this expression:
@@ -74,6 +82,8 @@ You have changed the default settings for users to join their devices to your Az
     - Property: select the drop-down arrow and select **managementType**
     - Operator: select the drop-down arrow and select **Equals**  
     - Value: enter `MDM`
+
+   ![](../Media/89.png)
 
 3. Select the **Rule syntax** field. It should display the following rule:
 

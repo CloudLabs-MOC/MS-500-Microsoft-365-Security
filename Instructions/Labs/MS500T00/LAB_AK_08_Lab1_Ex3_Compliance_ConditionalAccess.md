@@ -1,4 +1,4 @@
-# Module 7 - Lab 1 - Exercise 3 - Creating compliance and conditional access policies 
+# Module 8 - Lab 1 - Exercise 3 - Creating compliance and conditional access policies 
 
 ### Scenario
 

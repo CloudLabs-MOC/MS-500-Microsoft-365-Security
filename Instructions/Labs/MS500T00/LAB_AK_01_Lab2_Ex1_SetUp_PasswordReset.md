@@ -16,7 +16,7 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 3.  In the navigation pane under **Manage** select **Users**, then select **Password reset**.
 
-4.  In the **Password reset | Properties** window, select **All** to enable self-service password reset to all users. Select **Save**.
+4.  In the **Password reset | Properties** window, select **All** to enable self-service password reset to **All** users. Select **Save**.
 
     ![](../Media/10.png)
 
@@ -39,7 +39,7 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 11. Still on the **Password reset | Manage** blade, select **Registration** Select **No** for **Require users to register when signing in**, and the select **Save**.
 
-    ![](../Media/13.png)
+    ![](../Media/14.png)
 
 #### Task 2: Register user for self-service password reset
 
@@ -56,7 +56,6 @@ When you test the self-service password reset, use a non-administrator account. 
 
 1. On the **Security info** page, click **Add method**. Select your desired authentication method such as **Phone** and proceed through the setup steps.
 
-    ![](../Media/14.png)
     ![](../Media/15.png)
 
 >**Note** 

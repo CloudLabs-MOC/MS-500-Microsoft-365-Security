@@ -20,13 +20,19 @@ Before you start using privileged access, determine who needs approval authority
 
 5.  In the **Set up the basics** screen enter the Name `Privileged Access Approval Group` and enter a similar description and then select **Next**.
 
+  ![](../Media/143.png)
+
 6.  In the **Edit settings** screen for the group email alias type `access`, tab to the next field to ensure it's acceptable, then select **Next**.
+
+  ![](../Media/144.png)
 
 7.  In the **Review and finish adding group** screen select **Create group**. Select **Close**.
 
 8.  In the **Active Groups** screen select **Mail-enabled security** tab and check the group you just created.  You may have to click **refresh** after several minutes for the group to appear in the list.
 
 9.  In the **Privileged Access Approval Group** screen click the **Members** tab and then select **View all and manage members**.
+
+  ![](../Media/145.png)
 
 10.  Select **+ Add members**. Search for **MOD Administrator**. Select **MOD Administrator** and click **Add (1)**. Close the **Privileged Access Approval Group** screen to return to the Groups screen.
 
@@ -38,6 +44,8 @@ Before you start using privileged access, determine who needs approval authority
 1. In the Microsoft 365 admin center, signed in as global administrator Holly Dickson. Select **Settings** then select **Org settings**.
 
 2. In the Org settings screen select the **Security & privacy** tab and then select **Privileged access**.
+
+  ![](../Media/146.png)
 
 3. In the Privileged Access screen make sure **Allow Priviledged access requests and choose default approval group** is **Checked**.
 
@@ -53,6 +61,8 @@ It has been decided that Exchange mailbox moves tasks will require privileged ac
 2. In the Org settings screen select the **Security & privacy** tab and then select **Privileged access**. 
 
 3. In the Privileged Access screen select **Create policies and manage requests**.
+
+  ![](../Media/146.png)
 
 4. Select **manage policies** and then select **+ Add policy**.
 

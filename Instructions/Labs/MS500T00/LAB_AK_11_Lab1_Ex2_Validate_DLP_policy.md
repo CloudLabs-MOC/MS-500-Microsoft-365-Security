@@ -23,6 +23,8 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 	- Message area: type `This customer has social security number: 123-45-6789`.
 
 
+![](../Media/142.png)
+
 6. Select **Send.**
 
 7. You will now send a second message from Holly to Alex that contains multiple social security numbers.  In **Outlook**, in the upper left corner of the screen, select **New message**. 

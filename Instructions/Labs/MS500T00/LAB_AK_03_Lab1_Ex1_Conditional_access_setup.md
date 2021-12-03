@@ -46,9 +46,10 @@ In your policy, set:
     
 
     b. On the **Select** page, select `Patti Fernandez`, and then click **Select**.
-
     
-    ![](../Media/41.png)
+    
+ ![](../Media/41.png)
+ 
 9.  Back on the New page click **Cloud apps or actions**.
 
 
@@ -63,8 +64,8 @@ In your policy, set:
 
     c. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
 
-
-    ![](../Media/42.png)
+ ![](../Media/42.png)
+ 
 11.  In the **Access controls** section, click **Grant**.
 
 
@@ -73,15 +74,16 @@ In your policy, set:
      2.  Select **Require multi-factor authentication**.
      3.  Click **Select**.
 
-     ![](../Media/43.png)
+ ![](../Media/43.png)
+ 
 13.  In the **Enable policy** section, click **On**.
 
 14.  Click **Create**.
 
     **Note:** If the policy fails check your work and **Create** again.
-
-
-   ![](../Media/44.png)
+ 
+ ![](../Media/44.png)
+ 
 ### Task 2: Evaluate a simulated sign-in
 
 

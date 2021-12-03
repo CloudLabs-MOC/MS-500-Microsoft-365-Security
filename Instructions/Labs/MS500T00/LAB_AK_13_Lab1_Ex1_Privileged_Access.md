@@ -10,11 +10,11 @@ In this exercise, you will set up Privileged Access Management and create an acc
 Before you start using privileged access, determine who needs approval authority for incoming requests for access to elevated and privileged tasks. Any Global Admin who is part of the Approvers' group is able to approve access requests.  Adatum has decided to make the MOD Administrator, the user who will approve access requests.
 
 
-1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
+1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** and Password as **Pa55w.rd**. 
 
 2. In your **Microsoft Edge** browser, if you have the **Microsoft 365 admin Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://admin.microsoft.com`.
 
-3. In the admin center, click **Groups** and then select **Active Groups**.  In the **Active Groups** screen select **Add a group**.
+3. In the admin center, click **Teams & Groups** and then select **Active Groups**.  In the **Active Teams & Groups** screen select **Add a group**.
 
 4.  In the **Choose a group type** screen select **Mail-enabled security** and select **Next**.
 
@@ -24,7 +24,7 @@ Before you start using privileged access, determine who needs approval authority
 
 7.  In the **Review and finish adding group** screen select **Create group**. Select **Close**.
 
-8.  In the **Active Groups** screen select the group you just created.  You may have to click **refresh** after several minutes for the group to appear in the list.
+8.  In the **Active Groups** screen select **Mail-enabled security** tab and check the group you just created.  You may have to click **refresh** after several minutes for the group to appear in the list.
 
 9.  In the **Privileged Access Approval Group** screen click the **Members** tab and then select **View all and manage members**.
 
@@ -41,7 +41,7 @@ Before you start using privileged access, determine who needs approval authority
 
 3. In the Privileged Access screen make sure **Allow Priviledged access requests and choose default approval group** is **Checked**.
 
-4.  Select the **Privileged Access Approval Group** as the **Default approval group**.  Click **Save** and close the **Add Policy** window.
+4.  Select the **Privileged Access Approval Group** as the **Default approval group**.  Click **Save** and close the **Privileged Access** window.
 
 
 ### Task 3 - Create a privileged access policy

@@ -16,7 +16,8 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 		Set-ExecutionPolicy Unrestricted  
 5.	To confirm the execution policy change, enter **A** for Yes to All press Enter key.
 
-		![](../Media/29.png)
+		
+	  ![](../Media/29.png)
 	
 ### Task 2 - Enable Directory Synchronization
 

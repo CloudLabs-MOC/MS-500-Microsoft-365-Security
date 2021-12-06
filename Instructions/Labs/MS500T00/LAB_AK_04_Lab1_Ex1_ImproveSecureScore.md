@@ -46,7 +46,6 @@ The Secure Score History view also lists specific actions you have taken and the
 
 2.  Click the **Manage in microsoft azure** button.  A new browser tab should open directly to the **Password reset - Properties** blade in Azure portal.
 
-
        ![](../Media/68.png)
   
 3.  Under **Self service password reset enabled** click All. 

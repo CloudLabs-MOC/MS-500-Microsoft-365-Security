@@ -16,6 +16,8 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
 
 4. In the **Home &gt; Permissions** page, select the **eDiscovery Manager** check box.
+![image](https://user-images.githubusercontent.com/33771500/144814719-c5a1a83f-f54a-4673-9b17-77e0f1b9efeb.png)
+
 
 5. In the **eDiscovery Manager** role group window, scroll down to the **eDiscovery Manager** section and select **Edit**.
 

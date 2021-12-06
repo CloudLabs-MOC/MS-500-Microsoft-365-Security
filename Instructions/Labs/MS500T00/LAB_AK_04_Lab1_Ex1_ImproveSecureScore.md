@@ -70,7 +70,7 @@ The Secure Score History view also lists specific actions you have taken and the
 
        ![](../Media/72.png)
 
-**Note:**  Score updates may take 24 hours to appear in your Microsoft Secure Score.  Also, partial score may be given depending on the action.  For example, this tenant includes 10 licensed users, if just two of the users were enabled for Self service password reset 1/5 points would be awarded for this action.
+       **Note:**  Score updates may take 24 hours to appear in your Microsoft Secure Score.  Also, partial score may be given depending on the action.  For example, this tenant includes 10 licensed users, if just two of the users were enabled for Self service password reset 1/5 points would be awarded for this action.
 
 Return to Microsoft Secure Score in 24 hours to view the change to your score and revisit History tab.
 

@@ -19,10 +19,10 @@ Microsoft Security center constantly reviews active recommendations and calculat
 
        - The **Secure Score** represents the score per policies, per selected subscription
        - Secure score by category shows you which resources need the most attention
-       ![Screenshot](../Media/SecureScore.png)
     
       **Note**: The sum of the secure score of each subscription does not equal the overall secure score. The secure score is a calculation based on the ratio between your healthy resources and your total resources per recommendation, not a sum of secure scores across your subscriptions.
        
+       ![Screenshot](../Media/SecureScore.png)
 3.  Select **Improvement actions** to see the actions you can take to improve the secure score for that subscription.
 
 4.  In the list of actions, you can see that for each action there is a column that represents the **Points achieved**. This number represents how many of the possible points you have achieved by taking the action. For example, in the screen below, if you **Require MFA for administrative roles**, you can score up to ten points.

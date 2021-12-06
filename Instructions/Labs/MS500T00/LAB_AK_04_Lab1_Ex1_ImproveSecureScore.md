@@ -20,7 +20,7 @@ Microsoft Security center constantly reviews active recommendations and calculat
        - The **Secure Score** represents the score per policies, per selected subscription
        - Secure score by category shows you which resources need the most attention.
  
-       ![Screenshot](../Media/SecureScore.png)
+    ![Screenshot](../Media/SecureScore.png)
 
     
       **Note**: The sum of the secure score of each subscription does not equal the overall secure score. The secure score is a calculation based on the      ratio between your healthy resources and your total resources per recommendation, not a sum of secure scores across your subscriptions.
@@ -46,13 +46,13 @@ The Secure Score History view also lists specific actions you have taken and the
 
 2.  Click the **Manage in microsoft azure** button.  A new browser tab should open directly to the **Password reset - Properties** blade in Azure portal.
 
-       ![](../Media/68.png)
+    ![](../Media/68.png)
   
 3.  Under **Self service password reset enabled** click All. 
 
 4.  Click **Save** if it was not already set to All from an earlier lab.
 
-       ![](../Media/69.png)
+    ![](../Media/69.png)
 
 5.  In the Manage area click **Registration**.
 
@@ -62,13 +62,13 @@ The Secure Score History view also lists specific actions you have taken and the
 
 8.  Click **Save**.
 
-       ![](../Media/70.png)
+    ![](../Media/70.png)
 
 9.  Return the browser tab with Microsoft Secure Score.
 
 10. In the Enable sef-service password reset pane in the Notes enter the following **Enabled Self-Service password reset for all users on <enter today's date>** and click **Save and close**.
 
-       ![](../Media/72.png)
+     ![](../Media/72.png)
 
        **Note:**  Score updates may take 24 hours to appear in your Microsoft Secure Score.  Also, partial score may be given depending on the action.  For example, this tenant includes 10 licensed users, if just two of the users were enabled for Self service password reset 1/5 points would be awarded for this action.
 

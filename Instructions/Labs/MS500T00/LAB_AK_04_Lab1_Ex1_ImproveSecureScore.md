@@ -18,7 +18,7 @@ Microsoft Security center constantly reviews active recommendations and calculat
 2.  At the top you can see Secure score highlights:
 
        - The **Secure Score** represents the score per policies, per selected subscription
-       - Secure score by category shows you which resources need the most attention
+       - Secure score by category shows you which resources need the most attention.
  
        ![Screenshot](../Media/SecureScore.png)
 
@@ -46,7 +46,7 @@ The Secure Score History view also lists specific actions you have taken and the
 
 2.  Click the **Manage in microsoft azure** button.  A new browser tab should open directly to the **Password reset - Properties** blade in Azure portal.
 
-        
+
        ![](../Media/68.png)
   
 3.  Under **Self service password reset enabled** click All. 

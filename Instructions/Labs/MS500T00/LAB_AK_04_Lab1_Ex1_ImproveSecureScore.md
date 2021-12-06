@@ -13,18 +13,18 @@ Microsoft Security center constantly reviews active recommendations and calculat
 
 ### Task 1: View the secure score in the Microsoft 365 Security Portal.
 
-1.  Login to **LON-CL1** virtual machine as Administrator with the password: `Pa55w.rd`.  Go to the Microsoft 365 security dashboard `https://security.microsoft.com` and login with Holly's global admin credentials, select **Microsoft Secure score** on the dashboard.
+1.  Login to **LON-CL1** virtual machine as Administrator with the password: `Pa55w.rd`. Go to the Microsoft 365 security dashboard `https://security.microsoft.com` and login with Holly's global admin credentials, select **Microsoft Secure score** on the dashboard.
 
 2.  At the top you can see Secure score highlights:
 
        - The **Secure Score** represents the score per policies, per selected subscription
        - Secure score by category shows you which resources need the most attention
+    
+      **Note**: The sum of the secure score of each subscription does not equal the overall secure score. The secure score is a calculation based on the ratio between your healthy resources and your total resources per recommendation, not a sum of secure scores across your subscriptions.
+
 
        ![Screenshot](../Media/SecureScore.png)
-    
-      **Note**: The sum of the secure score of each subscription does not equal the overall secure score. The secure score is a calculation based on the      ratio between your healthy resources and your total resources per recommendation, not a sum of secure scores across your subscriptions. 
-
-
+       
 3.  Select **Improvement actions** to see the actions you can take to improve the secure score for that subscription.
 
 4.  In the list of actions, you can see that for each action there is a column that represents the **Points achieved**. This number represents how many of the possible points you have achieved by taking the action. For example, in the screen below, if you **Require MFA for administrative roles**, you can score up to ten points.

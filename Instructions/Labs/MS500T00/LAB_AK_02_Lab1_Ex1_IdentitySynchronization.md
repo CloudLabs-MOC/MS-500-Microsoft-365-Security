@@ -16,7 +16,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 		Set-ExecutionPolicy Unrestricted  
 5.	To confirm the execution policy change, enter **A** for Yes to All press Enter key.
 
-	![](../Media/29.png)
+		![](../Media/29.png)
 	
 ### Task 2 - Enable Directory Synchronization
 
@@ -24,17 +24,17 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 2.	Sign in as **holly@M365xZZZZZZ.onmicrosoft.com** with the password `Pa55w.rd`.    
 3.	Click **Admin** to go to the Microsoft 365 admin center.
 
-	![](../Media/30.png)
+		![](../Media/30.png)
 	
 5.	If asked about **update your admin contact information **click the Cancel button to skip this request.  
 	**Note:** If you see the Active Directory synchronization is being activated warning, you can ignore it at this time, but you will not be able to run directory synchronization later in this exercise. You must wait until directory synchronization is activated. However, you can complete the following steps, even if you do see the warning message.  
 5.	In the left navigation, select **users** icon and select **Active users**, click on the ellipses at the top menu and choose **Directory Synchronization**.
 
-	![](../Media/31.png) 
-	![](../Media/32.png)
+		![](../Media/31.png) 
+		![](../Media/32.png)
 7.	Click on the **Go to the Download center to get the Azure AD Connect tool**.   Download and Run the download once prompted.
 
-	![](../Media/33.png)
+		![](../Media/33.png)
     
 ### Task 3 - Run Azure AD Connect
 
@@ -42,21 +42,21 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 2.	Agree to the license terms and privacy notice.
 3.	Click on **Use express settings**.
 
-	![](../Media/34.png)
+		![](../Media/34.png)
 5.	On the **Connect to Azure AD** screen enter your Office 365 admin username of **holly@M365xZZZZZZ.onmicrosoft.com** with password `Pa55w.rd` and click Next.   
 6.	If there is a pop up sign in window **Connect to AD DS** screen enter your domain administrator **Admin@M365xZZZZZZ.onmicrosoft.com** and password `ycYoe&L20a%%`.
 
-	![](../Media/35.png)
+		![](../Media/35.png)
 8.	select **Next**.   
 9.	On the **Connect to AD DS** screen enter your domain administrator **ADATUM\Administrator** and password `Pa55w.rd` and select **Next**.
 
-	![](../Media/36.png)
+		![](../Media/36.png)
 11.	Select **Continue without matching all UPN suffixes to verified domains** checkbox. Select **Next** on the Azure AD sign-in configuration screen.   
 12.	On the **Ready to configure** screen make sure the check box for **Start the synchronization process when configuration completes** is marked and select **Install**.   
 13.	Wait for the installation to complete (this may take several minutes).   
 14.	Select **Exit**.   
 
-	![](../Media/37.png)
+		![](../Media/37.png)
 
 ### Task 4 - Validate the results of directory synchronization and license a user. 
 
@@ -64,14 +64,14 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@M365xZZZZZZ.onmicrosoft.com**, Password: `Pa55w.rd`  
 3.	Navigate to the **Active Users**.  
 
-	![](../Media/38.png)
+		![](../Media/38.png)
 5.	You should now see many users that have become synced from the local Active Directory.  You may need to click the refresh button to update the data in the page.  Select Abbie Parsons.  Abbie is a user that was only in the AD DS domain prior to our synchronization. 
 6.	Edit Abbie Parsons Product licenses as follows: 
 	- Location = United Kingdom
 	- Product License = Enterprise Mobility + Security E5
 
-	![](../Media/39.png)
-	![](../Media/40.png)
+		![](../Media/39.png)
+		![](../Media/40.png)
 7.	Click **Save changes** to make the changes. Close the window.
 
 You have successfully synced local ADATUM users into Office 365 and licensed the synced user Abbie Parsons.

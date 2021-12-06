@@ -25,8 +25,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 2.  Sign in as **holly@M365xZZZZZZ.onmicrosoft.com** with the password `Pa55w.rd`.    
 3.  Click **Admin** to go to the Microsoft 365 admin center.
 
-	
-	  ![](../Media/30.png)
+	![](../Media/30.png)
 	
 5.  If asked about **update your admin contact information **click the Cancel button to skip this request.  
 	**Note:** If you see the Active Directory synchronization is being activated warning, you can ignore it at this time, but you will not be able to run directory synchronization later in this exercise. You must wait until directory synchronization is activated. However, you can complete the following steps, even if you do see the warning message.  

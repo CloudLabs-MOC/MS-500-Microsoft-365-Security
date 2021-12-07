@@ -22,7 +22,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 ### Task 2 - Enable Directory Synchronization
 
 1.  Open your browser and go to `https://portal.office.com/`   
-2.  Sign in as **holly@M365xZZZZZZ.onmicrosoft.com** with the password `Pa55w.rd`.    
+2.  Sign in as **holly@M365xZZZZZZ.onmicrosoft.com** as given in Environment details page.  
 3.  Click **Admin** to go to the Microsoft 365 admin center.
 
 	![](../Media/30.png)
@@ -34,10 +34,12 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
        
       ![](../Media/31.png) 
       ![](../Media/32.png)
-7.  Click on the **Go to the Download center to get the Azure AD Connect tool**.   Download and Run the download once prompted.
+7.  Click on the **Go to the Download center to get the Azure AD Connect tool**. scroll down and select Download and Run the download once prompted.
 
 		
 	![](../Media/33.png)
+	![](../Media/148.png)
+	
     
 ### Task 3 - Run Azure AD Connect
 
@@ -47,13 +49,13 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 
 		
 	  ![](../Media/34.png)
-5.	On the **Connect to Azure AD** screen enter your Office 365 admin username of **holly@M365xZZZZZZ.onmicrosoft.com** with password `Pa55w.rd` and click Next.   
+5.	On the **Connect to Azure AD** screen enter your Office 365 admin username of **holly@M365xZZZZZZ.onmicrosoft.com** with password given in environment details page and click Next.   
 6.	If there is a pop up sign in window **Connect to AD DS** screen enter your domain administrator **Admin@M365xZZZZZZ.onmicrosoft.com** and password `ycYoe&L20a%%`.
 
 		
 	  ![](../Media/35.png)
 8.	select **Next**.   
-9.	On the **Connect to AD DS** screen enter your domain administrator **ADATUM\Administrator** and password `Pa55w.rd` and select **Next**.
+9.	On the **Connect to AD DS** screen enter your domain administrator **ADATUM\azureuser** and password given in Environment details page and select **Next**.
 
 		
 	  ![](../Media/36.png)
@@ -68,7 +70,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 ### Task 4 - Validate the results of directory synchronization and license a user. 
 
 1.	To verify the new user you created open the Office 365 Admin Center in the browser by typing `https://portal.office.com` in the address bar.  
-2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@M365xZZZZZZ.onmicrosoft.com**, Password: `Pa55w.rd`  
+2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@M365xZZZZZZ.onmicrosoft.com**, Password given in environment details page. 
 3.	Navigate to the **Active Users**.  
 
 		

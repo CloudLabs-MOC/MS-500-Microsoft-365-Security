@@ -84,19 +84,27 @@ You have successfully assigned an eDiscovery role to Joni and performed a conten
 
 In this task, you will create an eDiscovery case with a configured hold and content search for any violations regarding social security numbers. You will continue using Joni Sherman’s user account. Having been assigned the eDiscovery Managers role in the prior task, Joni has the permissions necessary to create an eDiscovery case.
 
-1. You should still be logged into your Client 2 VM (**LON-CL2**) as the **LON-CL2\Admin** account and signed into Microsoft 365 as Joni Sherman. However, if you have been signed out of Microsoft 365, then on the Microsoft 365 sign-in page, sign into Joni’s **JoniS@M365xZZZZZZ.onmicrosoft.com** account using her password assigned by your lab hoster.
+1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account and signed into Microsoft 365 as Joni Sherman. However, if you have been signed out of Microsoft 365, then on the Microsoft 365 sign-in page, sign into Joni’s **JoniS@M365xZZZZZZ.onmicrosoft.com** account using her password assigned by your lab hoster.
 
 2. The **Security and Compliance Center** should still be open in a tab in Microsoft Edge. If so, select that tab now. If not, then enter the following URL in the address bar: `https://protection.office.com`. 
 
 3. In the **Security and Compliance Center**, in the left navigation pane, select **eDiscovery**, and then under it, select **eDiscovery**.
 
+![](../Media/M014.20.png) 
+
 4. On the **eDiscovery** window, select **(+) Create a case** on the top menu.
 
+![](../Media/M014.21.png) 
+
 5. In the **New case** window, enter `Social Security Violation` into the **Case name** field and select **Save**.
+
+![](../Media/M014.22.png) 
 
 6. Back on the **eDiscovery** page, select **Open** that appears to the left of the **Social Security Violation** case.
 
 7. On the **Social Security Violation** window, select the **Holds** tab from the top menu.
+
+![](../Media/M014.23.png) 
 
 8. Select **(+) Create** to create a new hold. This initiates the **Create a new hold** wizard.
 

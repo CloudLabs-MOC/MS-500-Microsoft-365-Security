@@ -108,9 +108,15 @@ In this task, you will create an eDiscovery case with a configured hold and cont
 
 8. Select **(+) Create** to create a new hold. This initiates the **Create a new hold** wizard.
 
+![](../Media/M014.24.png)
+
 9. On the **Name your hold** page, enter `Social Security Violation - Content` into the **Name** field and then select **Next**.
 
+![](../Media/M014.25.png)
+
 10. On the **Choose locations** page, For the location **Exchange email**, select the **Choose users, groups or teams** field.
+
+![](../Media/M014.26.png)
 
 12. On the **Exchange email** page, select **Choose users, groups, or teams**.
 
@@ -118,25 +124,43 @@ In this task, you will create an eDiscovery case with a configured hold and cont
 
 13. Scroll down on the page, and under **Users, groups, or teams**, select **Holly Dickson** from the search results.
 
+![](../Media/M014.27%20(2).png)
+
 14. Select **Choose** and then select **Done**.
 
 15. On the **Choose locations** page, **1 user, group, or team** is displayed to the right of **Exchange email**. Select **Next**.
 
+![](../Media/M014.28.png)
+
 16. On the **Query conditions** page, enter `SSN` press enter and then type `social` into the **Keywords** box.  This will search for those two terms independently. Then select **Next**.
 
-17. On the **Review your settings** page, review the values and select **Edit** next to any that need to be modified. When you are satisfied with the settings, select **Create this hold**, then select **Close**.
+![](../Media/M014.29.png)
+
+
+17. On the **Review your settings** page, review the values and select **Edit** next to any that need to be modified. When you are satisfied with the settings, then click  **submit and then Done**.
+
+![](../Media/M014.30.png)
+
 
 18. Back on the **eDiscovery Case overview**, on the **Social Security Violation &gt; Core ED &gt; Hold** page, select the **Searches** tab from the top menu.
 
+![](../Media/M014.31.png)
+
 19. Select **(+) New search.** and then in the drop-down select **(+) New search.**.
 
-20. In the **New search** window, in the **Search query** pane on the left, enter `SSN` press enter and then type `social` in the **Keywords** field and then under **Locations**, select **Locations on hold**.
+20. In the **New search** window, in the **Search query** enter `Social Security Violation - Search` into the **Name** field and then select **Next**.
 
-21. Select **Save &amp; run**.
+![](../Media/M014.32.png)
 
-22. In the **Save search** window, enter `Social Security Violation - Search` into the **Name** field and then select **Save**.
+21. under **Locations**, select **Locations on hold**.
 
-23. This will initiate a search query that looks for the keywords **SSN**. Once the query is finished, wait for the preview results to be displayed. 
+![](../Media/M014.33.png)
+
+22. In the **New search** window, in the **Search query** pane on the left, enter `SSN` press enter and then type `social` in the **Keywords** field. 
+
+23. This will initiate a search query that looks for the keywords **SSN**. Once the query is finished, wait for the preview results to be displayed.
+
+24. Select **Save &amp; run**.
 
 You have now created an eDiscovery case, added an In-Place Hold to preserve mailbox content, and created a search to discover data from the hold.
 

@@ -41,7 +41,7 @@ You have now configured your tenant so that all users can enroll their clients t
 
 7. In the **Members allowed to join devices** window, select **+Add**
 
-8. In the **Add members** pane on the right, select **Alex Wilber** , select **Select** at the bottom of the screen, and then select **Ok**.
+8. In the **Add members** pane on the right, select **Holly Dickson** , select **Select** at the bottom of the screen, and then select **Ok**.
 
 9. Back in the **Device settings** detail pane on the right, scroll down and verify that **Devices to be Azure AD joined or Azure AD registered require Multi-Factor Authentication** is set to **No**. The **Maximum number of devices per user** property is currently set to **50.** Select **10** from the drop down box.
 

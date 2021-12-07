@@ -20,9 +20,12 @@ Follow these steps to view the audit history for Azure AD roles.
 
     At the bottom of the page, a table is displayed with information about each action in the available audit history. The columns have the following meanings:
 
+    ![](../Media/67.png)
 1.  To change the variable select the different options and click **Apply**.
 
 1. If you desire you can export the data results by clicking the **Export** button.  This will export the results to a *.CSV file.
+
+    ![](../Media/66.png)
 
 
 

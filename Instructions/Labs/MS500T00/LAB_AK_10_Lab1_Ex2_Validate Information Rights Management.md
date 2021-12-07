@@ -16,6 +16,8 @@ In the prior exercise, you set up Information Rights Management in Exchange Onli
 
 7. In the menu bar above the message pane, select **Encrypt**.
 
+	![](../Media/124.png)
+
 8. The message will now have a lock icon and list it as encrypted. To the right of the lock icon select **Change permissions**.
 
 9. In the Change permissions window click the drop-down and select **Do not forward**.  Select **OK**.
@@ -38,7 +40,9 @@ In the prior exercise, you set up Information Rights Management in Exchange Onli
 
 20. In the message pane for this email, a message that says **This messsage is encrypted and recipients can't forward it** should appear.
 
-21. In the message pane for this email, note how the **Forward** arrow is disabled. 
+21. In the message pane for this email, note how the **Forward** arrow is disabled.
+
+	![](../Media/125.png)
 
 22. Select the **ellipsis icon (More actions)** to the right of the disabled Forward arrow. In the menu that appears, note how both the **Forward** and **Print** options are disabled. 
 
@@ -61,7 +65,11 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 4. On the **Active sites** page, select **+ Create**.
 
+	![](../Media/126.png)
+
 5. Scroll down to **Other options** then in the **Choose a template** drop down box choose **More Templates**
+
+	![](../Media/127.png)
 
 6. On the **Create site collection** window, enter the following attributes:
 
@@ -77,6 +85,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 	- Administrator: Enter **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and then select the **Check Names** icon to the right of the field; once the username is validated, it will be replaced with **Holly Dickson.**
 
+	![](../Media/128.png)
 	
 7. Select **OK**.
 
@@ -86,13 +95,19 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 10. In your web browser, open a new tab and connect to: `https://M365xZZZZZZ.sharepoint.com/sites/marketing` (where ZZZZZZ is your tenant ID provided by your lab hosting provider)
 
+	![](../Media/129.png)
+
 11. On the **Marketing** site, in the left navigation pane, select **Documents**. 
 
 12. In the **We’ve got a new look** window, if it appears, select **NOT NOW**.
 
-13. In the **Documents** page for the **Marketing** site, at the top right, select the **gear** (**Settings)** icon and then select **Library settings**. 
+13. In the **Documents** page for the **Marketing** site, at the top right, select the **gear** (**Settings)** icon and then select **Library settings**.
 
-14. On the **Documents&gt;Settings** page, under **Permissions and Management**, select **Information Rights Management**. 
+	![](../Media/130.png)
+
+14. On the **Documents&gt;Settings** page, under **Permissions and Management**, select **Information Rights Management**.
+
+	![](../Media/131.png)
 
 15. On the **Information Rights Management Settings** page, select the **Restrict permissions on this library on download** checkbox. 
 
@@ -100,9 +115,13 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 17. In the **Add a permission policy description** box, type `Marketing policy for downloads`. 
 
-18. Select **SHOW OPTIONS**. 
+18. Select **SHOW OPTIONS**.
 
-19. Under **Configure document access rights**, select the **Allow viewers to write on a copy of the downloaded document** checkbox and select **OK**. 
+	![](../Media/132.png)
+
+19. Under **Configure document access rights**, select the **Allow viewers to write on a copy of the downloaded document** checkbox and select **OK**.
+
+	![](../Media/133.png)
 
 20. In the top-right corner of the page, select **Share**.
 
@@ -110,9 +129,9 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 22. Now that Holly has created this new SharePoint site and used IRM to restrict permissions on the site, she has asked Alex Wilber to test this site to validate whether IRM is working for SharePoint Online. Alex will perform this test on the Client 2 (**LON-CL2**) VM.<br/>
 
-	‎Switch to the **LON-CL2** VM, where you should still be logged into the Microsoft 365 admin center as Alex from the prior task.  
+	Switch to the **LON-CL2** VM, where you should still be logged into the Microsoft 365 admin center as Alex from the prior task.  
 
-23. ‎In the **Microsoft Edge** browser on LON-CL2, open a new tab and enter the following URL in the address bar to navigate directly to the Marketing site: `https://M365xZZZZZZ.sharepoint.com/sites/marketing` (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
+23. In the **Microsoft Edge** browser on LON-CL2, open a new tab and enter the following URL in the address bar to navigate directly to the Marketing site: `https://M365xZZZZZZ.sharepoint.com/sites/marketing` (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
 
 24. In the **Pick an Account** window, select **Alex Wilber** if his account is listed; otherwise, select **Use another account** and log in as **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) the password is likely the same as your MOD admin assigned by your lab hosting provider.
 
@@ -126,7 +145,9 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 29. Select **Documents** on the left pane in SharePoint.  
 
-30. On the **Documents** page, in the menu bar, select **Upload**, and then in the drop-down menu select **Files**. 
+30. On the **Documents** page, in the menu bar, select **Upload**, and then in the drop-down menu select **Files**.
+
+	![](../Media/135.png)
 
 31. In the **File Explorer** window, select **Desktop** under the **Quick access** section, select **TestDocument.docx**, and then select **Open**. This will upload the file to the **Documents** page in the **Marketing** site collection.
 

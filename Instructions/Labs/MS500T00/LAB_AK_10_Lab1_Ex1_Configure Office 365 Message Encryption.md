@@ -38,7 +38,9 @@ In this task, you will create an encryption rule for messages inside your Exchan
 
 5. In the **Exchange admin center**, in the left navigation pane select **mail flow.**
 
-6. At the top of the **mail flow** page, the **rules** tab displays by default. In the **rules** tab, select the plus sign (**+**) to create a new rule. This displays a drop-down menu of actions. Select **Create a new rule.**
+6. At the top of the **mail flow** page, the **rules** tab displays by default. In the **rules** tab, select the plus sign (**+**) to create a new rule. This displays a drop down menu of actions. Select **Create a new rule.**
+
+ ![](../Media/121.png)
 
 7. In the **new rule** window, in the **Name** box, enter `Encrypt mail for guest@contoso.com` as the name of this rule.
 
@@ -48,11 +50,15 @@ In this task, you will create an encryption rule for messages inside your Exchan
 
 10. You need to add more conditions, so select **More options**.
 
-11. Select **add condition**. 
+11. Select **add condition**.
+
+ ![](../Media/122.png)
 
 12. Note how a second condition box appears below **The recipient is…** condition box. In this second condition box, select the drop-down arrow and select **The recipient**. Then in the drop-down menu select **is external/internal.**
 
-13. In the **select recipient location** dialog box, select the drop-down arrow. In the drop-down menu, select **Outside the organization** and then select **OK**. 
+13. In the **select recipient location** dialog box, select the drop-down arrow. In the drop-down menu, select **Outside the organization** and then select **OK**.
+
+ ![](../Media/123.png)
 
 14. You now need to define an action to perform when this rule is applied. In the **Do the following…** box, select the drop-down arrow. In the drop-down menu, select **Modify the message security….** In the menu that appears, select **Apply Office 365 Message Encryption and rights protection.**
 

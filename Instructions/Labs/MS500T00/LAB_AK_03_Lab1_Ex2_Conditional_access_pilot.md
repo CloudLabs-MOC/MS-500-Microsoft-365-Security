@@ -33,20 +33,28 @@ In this exercise you will configure a conditional access policy enabling Azure M
 
 3.  Select **+ New policy**
 
+     ![](../Media/48.png)
+
 
 4.  Name your policy `MFA Pilot`
 5.  Under **Users and groups**, click **0 users and groups selected**. Choose **Select Users and groups** radio button and check the box **Users and groups** Select.
     * Select your pilot group `MFA Pilot`
     * Click **Select**
 
+     ![](../Media/49.png)
+
 6.  Click **Cloud apps or actions**, select the **Select apps** radio button.
     * Click **Select**. The cloud app for the Azure portal is `Microsoft Azure Management` select it.
     * Click **Select**
+
+     ![](../Media/50.png)
 
 7.  Skip the **Conditions** section
 8.  Click **Grant**, make sure the **Grant access** radio button is selected
     * Check the box for **Require multi-factor authentication**
     * Click **Select**
+
+     ![](../Media/51.png)
 
 9.  Skip the **Session** section
 10. Set the **Enable policy** toggle to **On**

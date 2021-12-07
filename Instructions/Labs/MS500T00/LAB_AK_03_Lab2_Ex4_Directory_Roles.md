@@ -9,6 +9,8 @@ Role assignments become "stale" when users have privileged access that they don'
 
 1.  Return back to the browser that is logged in as your Global Admin Account Holly Dickson.
 
+1.  In the Azure Portal, click All services and search for and select Azure AD Privileged Identity Management
+
 1.  From the PIM application main page select **Azure AD Roles** under the **Manage** section select **Access reviews** and Select **New**.
 
      ![Screenshot](../Media/1704b3b2-05a7-47c8-a3e3-20ba6546b9d6.png)
@@ -24,6 +26,8 @@ Role assignments become "stale" when users have privileged access that they don'
  
  
      ![Screenshot](../Media/84274ed2-be53-4b3f-853a-c85f0dcfeab2.png)
+     ![](../Media/64.png)
+     ![](../Media/65.png)
  
 1.  Once the review has completed and has a status of Active, click on the **Global Admin Review**. You may need to refresh the view in Azure.
 

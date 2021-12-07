@@ -46,8 +46,10 @@ In your policy, set:
     
 
     b. On the **Select** page, select `Patti Fernandez`, and then click **Select**.
-
-
+    
+    
+ ![](../Media/41.png)
+ 
 9.  Back on the New page click **Cloud apps or actions**.
 
 
@@ -62,7 +64,8 @@ In your policy, set:
 
     c. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
 
-
+ ![](../Media/42.png)
+ 
 11.  In the **Access controls** section, click **Grant**.
 
 
@@ -71,13 +74,16 @@ In your policy, set:
      2.  Select **Require multi-factor authentication**.
      3.  Click **Select**.
 
+ ![](../Media/43.png)
+ 
 13.  In the **Enable policy** section, click **On**.
 
 14.  Click **Create**.
 
-    ‎**Note:** If the policy fails check your work and **Create** again.
-
-
+    **Note:** If the policy fails check your work and **Create** again.
+ 
+ ![](../Media/44.png)
+ 
 ### Task 2: Evaluate a simulated sign-in
 
 
@@ -100,21 +106,25 @@ We will initialize the what if policy evaluation tool for:
 
 2.  Click **Users**, select `Patti Fernandez`, and then click **Select**.
 
+    ![](../Media/45.png)
+
 
 
 3.  To select a cloud app, perform the following steps:
-
-
 
     a. On the **Cloud apps, actions, or authentication context** page, select **Any cloud app**.
 
     b. Click **Select apps**.
 
     c. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
+    
+    ![](../Media/46.png)
 
     d. On the cloud apps or actions page,  select 'X' on the top right corner to close the window..
 
 4.  In the What If page select **What If**.
+
+    ![](../Media/47.png)
 
 5.  Note the result, Require MFA for Azure portal access.
 

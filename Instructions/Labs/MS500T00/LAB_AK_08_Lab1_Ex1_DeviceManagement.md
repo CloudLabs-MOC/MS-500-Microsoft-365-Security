@@ -13,11 +13,17 @@ In this task you will verify that Adatum has installed the Enterprise Mobility +
 
 2. In **Microsoft Edge**, you should still have a tab open to the **Microsoft 365 admin center**; if so, select that tab now. If not, enter **https://portal.office.com**, sign in as **Holly**, and in the **Microsoft Office Home** page, select **Admin**.
 
+   ![](../Media/82.png)
+
 3. In the **Microsoft 365 admin center**, select **Billing** in the left navigation pane, and then under it, select **Licenses**.
 
 4. On the **Licenses** page, select **Enterprise Mobility + Security E5.**
 
+   ![](../Media/83.png)
+
 5. In the **Enterprise Mobility + Security E5** page, under the list of users, verify that your pilot team members – **Alex Wilber**, **Joni Sherman**, **Lynne Robbins**, and the **MOD Administrator** – were each assigned a license.
+
+   ![](../Media/84.png)
 
     **Note:** These user accounts were created as part of your Office 365 tenant, and during that process, they were each assigned an Office 365 E5 license and an Enterprise Mobility + Security E5 license.
 

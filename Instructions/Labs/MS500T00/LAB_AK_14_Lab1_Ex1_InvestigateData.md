@@ -12,8 +12,12 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 2. In your **Microsoft Edge** browser, if you have the **Security and Compliance Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://protection.office.com`.
 
 3. In the **Office 365 Security and Compliance Center**, in the left navigation pane, select **Permissions.**
+![image](https://user-images.githubusercontent.com/33771500/144814321-0df50d13-032e-4a74-a8e1-eb7fc359ee26.png)
+
 
 4. In the **Home &gt; Permissions** page, select the **eDiscovery Manager** check box.
+![image](https://user-images.githubusercontent.com/33771500/144814719-c5a1a83f-f54a-4673-9b17-77e0f1b9efeb.png)
+
 
 5. In the **eDiscovery Manager** role group window, scroll down to the **eDiscovery Manager** section and select **Edit**.
 

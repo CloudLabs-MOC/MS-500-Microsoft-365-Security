@@ -8,29 +8,42 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 2. In **Server Manager**, select **Tools** in the upper-right menu bar, and in the drop-down menu, select **Group Policy Management.**
 
+	![](../Media/19.png)
+	![](../Media/20.png)
+
 3. Maximize the **Group Policy Management** window, if necessary.
 
 4. You want to edit the group policy that includes your organization's account lockout policy. If necessary, in the root console tree, expand **Forest:Adatum.com**, then expand **domains**, and then expand **Adatum.com**.  <br/>
 
-‎Under **Adatum.com**, right-click on **Default Domain Policy** and then select **Edit** in the menu.
+	![](../Media/21.png)
 
-5. Maximize the **Group Policy Management Editor** window.
+5. Under **Adatum.com**, right-click on **Default Domain Policy** and then select **Edit** in the menu.
 
-6. In the **Default Domain Policy** tree in the right pane, browse to **Computer Configuration** > **Policies** > **Windows Settings** > **Security Settings** > **Account Policies.**
+	![](../Media/22.png)
 
-7. In the **Account Policies** folder, select **Account Lockout Policy**.
+6. Maximize the **Group Policy Management Editor** window.
 
-8. As you can see in the right pane, none of the smart lockout parameters have been defined. You are going to use the **Azure AD admin center** to assign these values.   <br/>
+7. In the **Default Domain Policy** tree in the right pane, browse to **Computer Configuration** > **Policies** > **Windows Settings** > **Security Settings** > **Account Policies.**
 
-9.  In **Internet Explorer**, open a new browser tab and go to `https://portal.azure.com`.  Sign-in as Holly Dickson if you are not already signed in on another browswer tab. Search for **Azure Active Directory** and click **Azure Active Directory**. 
+8. In the **Account Policies** folder, select **Account Lockout Policy**.
 
-10. In the **Adatum Corporation | Overview** page, in the middle navigation pane under the **Manage** section, scroll down and select **Security**.
+9. As you can see in the right pane, none of the smart lockout parameters have been defined. You are going to use the **Azure AD admin center** to assign these values.   <br/>
 
-11. In the **Security | Getting started** window, in the middle pane under the **Manage** section, select **Authentication Methods**.
+10. Open a new browser tab and go to `https://portal.azure.com`.  Sign-in as Holly Dickson if you are not already signed in on another browswer tab. Search for **Azure Active Directory** and click **Azure Active Directory**. 
 
-12. In the **Authentication methods | Policies** page, in the middle pane under the **Manage** section, select **Password protection.**
+11. In the **Adatum Corporation | Overview** page, in the middle navigation pane under the **Manage** section, scroll down and select **Security**.
 
-13. In the **Authentication methods | Password protection** window, in the detail pane on the right, enter the following information:
+	![](../Media/23.png)
+
+12. In the **Security | Getting started** window, in the middle pane under the **Manage** section, select **Authentication Methods**.
+
+	![](../Media/24.png)
+
+13. In the **Authentication methods | Policies** page, in the middle pane under the **Manage** section, select **Password protection.**
+
+	![](../Media/25.png)
+
+14. In the **Authentication methods | Password protection** window, in the detail pane on the right, enter the following information:
 
 	- In the **Custom smart lockout** section:
 
@@ -52,25 +65,31 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 			- `Never4get!!`
 
-14. Select **Save** on the menu bar at the top of the page.
+15. Select **Save** on the menu bar at the top of the page.
 
-15. You should now test the banned password functionality. Select Holly Dicksons's user icon in the upper right corner of the screen and click **View account**, and in the menu that appears select **Change password**.
+	![](../Media/26.png)
 
-16. A new tab will open displaying the **change password** window. Enter `Pa55w.rd` in the **Old password** field, enter `Never4get!!` in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
+16. You should now test the banned password functionality. Select Holly Dicksons's user icon in the upper right corner of the screen and click **View account**, and in the menu that appears select **Change password**.
 
-17. In your browser, close the **Change password** tab. 
+17. A new tab will open displaying the **change password** window. Enter `Pa55w.rd` in the **Old password** field, enter `Never4get!!` in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
 
-18. You should now test the lockout threshold functionality. In the **My Dashboard - Azure Active Directory admin center** tab, select Holly Dicksons's user icon in the upper right corner of the screen, and in the menu that appears select **Sign out**. 
+	![](../Media/28.png)
 
-19. Once you are signed out as Holly, the **Pick an account** window will appear. Select **Use another account**. 
+18. In your browser, close the **Change password** tab. 
 
-20. In the **Sign in** window, enter **AllanD@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is the tenant suffix ID assigned to you by your lab hosting provider), and then select **Next**. 
+19. You should now test the lockout threshold functionality. In the **My Dashboard - Azure Active Directory admin center** tab, select Holly Dicksons's user icon in the upper right corner of the screen, and in the menu that appears select **Sign out**.
 
-21. On the **Enter password** window, enter any mix of letters and then select **Sign in**. Note the invalid password error message. Repeat this step 2 more times. Since you set the **Lockout threshold** to **3**, note the error message that you receive after the third attempt. Allan's account has been temporarily locked to prevent unauthorized access. <br/>
+	![](../Media/27.png)
+
+20. Once you are signed out as Holly, the **Pick an account** window will appear. Select **Use another account**. 
+
+21. In the **Sign in** window, enter **AllanD@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is the tenant suffix ID assigned to you by your lab hosting provider), and then select **Next**. 
+
+22. On the **Enter password** window, enter any mix of letters and then select **Sign in**. Note the invalid password error message. Repeat this step 2 more times. Since you set the **Lockout threshold** to **3**, note the error message that you receive after the third attempt. Allan's account has been temporarily locked to prevent unauthorized access. <br/>
 
 	**Note:** You will be prohibited from logging in as Allan until after the **90 second lockout duration** that you set earlier. 
 
-22. After 90 seconds, try logging in again to verify that you can log in. 
+23. After 90 seconds, try logging in again to verify that you can log in. 
 
 # End of lab.
  

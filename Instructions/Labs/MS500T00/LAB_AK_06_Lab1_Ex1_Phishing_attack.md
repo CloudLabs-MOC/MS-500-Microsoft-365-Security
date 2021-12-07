@@ -11,6 +11,8 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 2.  Click **Threat management**, and then click **Attack simulator**.
 
+	![](../Media/73.png)
+
 3.  Notice the warning that you must enable multi-factor authentication (MFA).  You are about to do a simulated attack and the system wants to confirm your credentials. This is a requirement of the attack simulator. Let's enable MFA for Holly Dickson. Go to your browser tab with the Microsoft 365 admin center or open a new browser tab to `https://admin.microsoft.com`.
 
 	**Note:** You may not get this warning if you enabled MFA for Holly in an earlier lab and are using the same tenant.  If this is the case you may skip ahead to the next task.
@@ -19,11 +21,15 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 5.  On the Active users screen click **Multi-factor authentication**.
 
+	![](../Media/74.png)
+
 7.  In the multi-factor authentication screen View **Global Administrators** then select **Holly Dickson** and select **Enable** under quick steps.
 
 8.  In the About enabling multi-factor auth screen select **enable**. in the About enabling multi-factor auth screen select **enable multi-factor auth** button.
 
 9.  In the Updates successful screen click **Close**.
+
+	![](../Media/75.png)
 
 10.  Close the browser session.  Open a new browser and open the Office 365 Security & Compliance portal and login again as Holly Dickson.  Now you should be asked for multi-factor credentials as part of the login process.
 
@@ -33,7 +39,9 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 1. Go to [Microsoft 365 security center - Attack simulation training](https://security.microsoft.com/attacksimulator) and login as **Holly Dickson**.
 1. Click the **Simulations** tab. Select **+ Launch a Simulation**.
-1. On the **Select Technique** screen. Ensure that **Credential Harvest** is selected. Click **Next**.
+
+	![](../Media/76.png)
+3. On the **Select Technique** screen. Ensure that **Credential Harvest** is selected. Click **Next**.
 
 1. Name the simulation `Spear Simulation` and select **Next**.
 1. On the **Select Payload** screen, select a desired payload from the list of provided payloads. Click **Next**.
@@ -45,6 +53,9 @@ Holly Dickson is concerned that some users in her organization may require educa
 	1. Select the user from the search results list. 
 	1. Click **Add 1 User** at the bottom. 
 	1. Click  **Next**.
+
+	![](../Media/77.png)
+	![](../Media/78.png)
 1. Leave the default settings on the **Assign training** screen. Click **Next**.
 1. On the **Training landing page** screen, click **Next**.
 1. On the **Launch Details** page, ensure that **Launch this simulation as soon as I'm done** is selected. Click **Next**.
@@ -57,6 +68,8 @@ Holly Dickson is concerned that some users in her organization may require educa
 1.  Log in as the user Patti Fernandez **PattiF@M365xZZZZZZ.onmicrosoft.com** where ZZZZZZ is your specific Office 365 tenant.  Patti's password is likely the same as the MOD administrator's password provided by your lab hosting providor.
 
 1.  Click the Outlook icon to open Microsoft Outlook for Patti. You should see a spear phishing email that includes the details you just entered in the previous task.
+
+	![](../Media/79.png)
 
 ### Task 4: Review the results
 

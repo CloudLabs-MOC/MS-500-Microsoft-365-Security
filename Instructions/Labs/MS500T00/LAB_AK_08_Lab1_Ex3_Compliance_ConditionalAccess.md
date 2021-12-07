@@ -73,9 +73,9 @@ When devices are non-compliant, they should not be able to access their e-mail. 
 
 4.  On the **Users and groups** blade, click the **All users** radio button.
 
-5.  On the **New** blade, click **Cloud apps or actions**, click the **Select apps** radio button, click **Select**, click **Office 365 Exchange Online**, and then click **Select**.
+5.  On the **New** blade, click **Cloud apps or actions**, click the **Select apps** radio button, click **Select**, click **Office 365**, and then click **Select**.
 
-6.  On the **New** blade, click **Conditions** > **0 conditions selected**. Under **Device platforms** label, click **Not configured**. Under **Device platforms** pop-up window, click **Yes** below configure, click the **Select device platforms** radio button, click the **Windows** check box, and then click **Done**.
+6.  On the **New** blade, click **Conditions** > **0 conditions selected**. Under **Device state** label, click **Not configured**. Under **Device state** pop-up window, click **Yes** below configure, click the **Select device platforms** radio button, click the **Windows** check box, and then click **Done**.
 
 7.  On the **New** blade under **Access controls**, click **Grant**, click the **Require device to be marked as compliant** check box, and then click **Select**.
 

@@ -55,13 +55,20 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 15. On the Locations page, select **All locations** and then select **Next**.
 ![](../Media/M014.12.png)
 
-16. On the **Condition card** page, enter `SSN` press enter and type `social` into the **Keywords** box.  Pressing enter between keywords will separate the words as independent terms in the list. Once the two terms are added select **Finish**.
+16. On the **Condition card** page, enter `SSN` press enter and type `social` into the **Keywords** box.  Pressing enter between keywords will separate the words as independent terms in the list. Once the two terms are added select **Next**.
+
 ![](../Media/M014.13.png)
+
+ On the Review your search page select Done
+
 ![](../Media/m014.15.png) 
 
 
 17. Back on the **Searches** tab, the Search query will run. The Status field in the bottom-left corner of the screen will indicate when the query is complete. It may take many minutes for the query to run and the data to be displayed in the right pane. When the content search finishes, you will see all mailbox items that you have created for the sensitive information test of your custom DLP policy. 
-![](../Media/m014.15.png) 
+
+ 
+![](../Media/M014.17.png) 
+
 
 If you didn't send emails during the DLP lab earlier in the course then no data will appear in this search.  If this happened, while the search is running, you could switch back to **LON-CL1** and send emails with the keyword terms mentioned in this lab to other users in your tenant.  You may have to run this search again to view data if you do that.
 

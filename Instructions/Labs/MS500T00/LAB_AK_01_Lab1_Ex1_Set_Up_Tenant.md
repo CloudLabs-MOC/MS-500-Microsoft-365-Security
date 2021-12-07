@@ -166,7 +166,7 @@ You will then create several additional user accounts in the Microsoft 365 admin
 
 	- Select location: **United States**
 
-	- Licenses: Under **Assign user a product license**, select **Microsoft 365 E5** and **Enterprise Mobility + Security E5**. 
+	- Licenses: Under **Assign user a product license**, select **Enterprise Mobility + Security E5**. 
 
 1. Select **Next**.
 
@@ -269,7 +269,7 @@ In a later lab, you will create Alert Policies using the Security and Compliance
 
 	![](../Media/ms-500-image-30.jpg)
 
-1. In the **Audit log search** window, at the top right of the page, select **Turn on auditing,** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**. 
+1. In the **Audit log search** window, at the top right of the page, select **Turn on auditing,** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes** .If not it automatically enabled for your organisation. 
 
 	**Note**: 'Audit Log' will be turned on by defualt for MS 365 and Office 365 Enterprise organizations. If there is no prompt to 'Turn On' audit log on that page, that means 'Audit Log' has been turned on by default.
 	

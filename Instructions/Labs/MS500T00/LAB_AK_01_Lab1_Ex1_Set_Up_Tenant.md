@@ -109,8 +109,6 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 1. Select **Custom themes**.
 
-	![](../Media/ms-500-image-14.jpg)
-
 1. In the **Customize themes** window, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color. Go ahead and explore some different options for your tenant. Make any changes that you wish. <br/>
 
     **Note:** Some colors patterns aesthetically distract users. Avoid using high contrasting colors together, such as neon colors and high-resolution colors like white and bright pink.

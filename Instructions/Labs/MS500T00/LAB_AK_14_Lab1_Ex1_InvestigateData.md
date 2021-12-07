@@ -31,7 +31,7 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
 9. You should see a banner with the message **2 members added**. Select **Done** and then **Save**.
 
-10. Switch to the Client 2 VM (**LON-CL2**). You should still be logged into **LON-CL2** as the **LON-CL2\Admin** account, and log into Microsoft 365 as **Joni Sherman**. In the **Sign in** window, enter **JoniS@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**. In the **Enter password** window, enter Joni's password (hint: it is probably the same as the MOD password assigned by your lab hoster).
+10. open the new private window on Client 1 VM **(LON-CL1)admin**.and log into Microsoft 365 as **Joni Sherman**. In the **Sign in** window, enter **JoniS@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**. In the **Enter password** window, enter Joni's password (hint: it is probably the same as the MOD password assigned by your lab hoster).
 
 11. If you have a tab open in your **Edge** browser for the **Office 365 Security and Compliance Center**, then select it now. Otherwise, select a new tab and enter the following URL in the address bar: `https://protection.office.com`.
 

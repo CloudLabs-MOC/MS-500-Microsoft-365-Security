@@ -87,7 +87,12 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 22. On the **Enter password** window, enter any mix of letters and then select **Sign in**. Note the invalid password error message. Repeat this step 2 more times. Since you set the **Lockout threshold** to **3**, note the error message that you receive after the third attempt. Allan's account has been temporarily locked to prevent unauthorized access. <br/>
 
-	**Note:** You will be prohibited from logging in as Allan until after the **90 second lockout duration** that you set earlier. 
+![](../Media/al22.png)
+
+
+
+
+**Note:** You will be prohibited from logging in as Allan until after the **90 second lockout duration** that you set earlier. 
 
 23. After 90 seconds, try logging in again to verify that you can log in. 
 

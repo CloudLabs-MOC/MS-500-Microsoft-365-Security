@@ -95,7 +95,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 10. In your web browser, open a new tab and connect to: `https://M365xZZZZZZ.sharepoint.com/sites/marketing` (where ZZZZZZ is your tenant ID provided by your lab hosting provider)
 
-	![](../Media/129.png)
+	![](../Media/R4.png)
 
 11. On the **Marketing** site, in the left navigation pane, select **Documents**. 
 

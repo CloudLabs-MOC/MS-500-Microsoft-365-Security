@@ -16,7 +16,7 @@ In the prior exercise, you set up Information Rights Management in Exchange Onli
 
 7. In the menu bar above the message pane, select **Encrypt**.
 
-	![](../Media/124.png)
+	![](../Media/R11.png)
 
 8. The message will now have a lock icon and list it as encrypted. To the right of the lock icon select **Change permissions**.
 
@@ -24,31 +24,36 @@ In the prior exercise, you set up Information Rights Management in Exchange Onli
 
 10. Select the **Send arrow** to send the email. 
 
-11. Switch to the Client 2 VM (**LON-CL2**).
+11. Switch to the second VM (**LON-CL2**).
+ 
 
-14. On the taskbar, select the **Microsoft Edge** icon. In your **Edge** browser navigate to `https://portal.office.com`. In the **Pick an Account** window, if **Alex Wilber** is listed then select his username; otherwise, select **Use another account** and log in as **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) his password is probably the same as the MOD admin password for your tenant as set by your lab provider.<br/>
+     **Note** :  **Open new Inprivate window and loggin with given credentials**
 
-15. In the **Office 365 home page**, select **Outlook**. 
 
-16. On the **Outlook** page, select your **language** and **time zone** and select **Save**. 
 
-17. If a **We’ve updated Outlook** window appears, select **Try the new Outlook**. 
+12. On the taskbar, select the **Microsoft Edge** icon. In your **Edge** browser navigate to `https://portal.office.com`. In the **Pick an Account** window, if **Alex Wilber** is listed then select his username; otherwise, select **Use another account** and log in as **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) his password is probably the same as the MOD admin password for your tenant as set by your lab provider.<br/>
 
-18. If a **Welcome** window appears, close it. 
+13. In the **Office 365 home page**, select **Outlook**. 
 
-19. Verify that Alex received an email from Holly that is IRM protected. IRM protected emails display a lock icon to the right of the message. Select the message to display it in the right pane.
+14. On the **Outlook** page, select your **language** and **time zone** and select **Save**. 
 
-20. In the message pane for this email, a message that says **This messsage is encrypted and recipients can't forward it** should appear.
+15. If a **We’ve updated Outlook** window appears, select **Try the new Outlook**. 
 
-21. In the message pane for this email, note how the **Forward** arrow is disabled.
+16. If a **Welcome** window appears, close it. 
+
+17. Verify that Alex received an email from Holly that is IRM protected. IRM protected emails display a lock icon to the right of the message. Select the message to display it in the right pane.
+
+18. In the message pane for this email, a message that says **This messsage is encrypted and recipients can't forward it** should appear.
+
+19. In the message pane for this email, note how the **Forward** arrow is disabled.
 
 	![](../Media/125.png)
 
-22. Select the **ellipsis icon (More actions)** to the right of the disabled Forward arrow. In the menu that appears, note how both the **Forward** and **Print** options are disabled. 
+20. Select the **ellipsis icon (More actions)** to the right of the disabled Forward arrow. In the menu that appears, note how both the **Forward** and **Print** options are disabled. 
 
-23. In your **Edge** browser, close the **Outlook** tab. 
+21. In your **Edge** browser, close the **Outlook** tab. 
 
-24. You want to remain logged into the Office 365 home page as **Alex Wilber** on **LON-CL2** for the next task, so leave the **Office 365 home page** tab open and proceed to the next task.
+22. You want to remain logged into the Office 365 home page as **Alex Wilber** on **LON-CL2** for the next task, so leave the **Office 365 home page** tab open and proceed to the next task.
 
  
 ### Task 2 - Validate Information Rights Management for SharePoint Online
@@ -73,9 +78,14 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 6. On the **Create site collection** window, enter the following attributes:
 
-	- Title: `Marketing`  
+	- Choose Template: `Team site`  
+	 
+	- site name: `marketing`
+	
+	- Web Site Address: leave the default values in the two drop-down fields. 
 
-	- Web Site Address: leave the default values in the two drop-down fields. In the field to the right of the drop-down field with **/sites/** displayed, enter `marketing`.
+
+	- Administrator: Enter **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and then select the **Check Names** icon to the right of the field; once the username is validated, it will be replaced with **Holly Dickson.**
 
 	- Language: select your language
 
@@ -83,9 +93,8 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 	- Time zone: select the appropriate time zone in which the team site is located 
 
-	- Administrator: Enter **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and then select the **Check Names** icon to the right of the field; once the username is validated, it will be replaced with **Holly Dickson.**
 
-	![](../Media/128.png)
+	![](../Media/R4.png)
 	
 7. Select **OK**.
 
@@ -95,7 +104,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 10. In your web browser, open a new tab and connect to: `https://M365xZZZZZZ.sharepoint.com/sites/marketing` (where ZZZZZZ is your tenant ID provided by your lab hosting provider)
 
-	![](../Media/R4.png)
+	![](../Media/R61.png)
 
 11. On the **Marketing** site, in the left navigation pane, select **Documents**. 
 
@@ -154,6 +163,8 @@ You will begin by having Holly create a new SharePoint site collection, configur
 32. In the list of Documents, right-click on **TestDocument.docx**, select **Open**, and then select **Open in browser**. 
 
 33. Verify that the **Marketing Policy** displays in a warning message at the top of the page. 
+
+![](../Media/r10.png)
 
 34. Try to enter some text in the document. Verify that Alex cannot edit the document in Word Online because it’s protected in this site collection. A Read-only information line will display at the top of the page indicating the document is read-only.
 

@@ -7,7 +7,7 @@ In this exercise, you will configure retention tags and policies, and you will i
 
 As part of your pilot project for Adatum, you will configure MRM retention by creating an MRM retention tag and adding it to a new MRM retention policy. You will also assign several default tags to the policy as well. You will then assign this retention policy to Joni Sherman and Alex Wilber's mailboxes.
 
-1. On LON-CL1 virtual machine. In **Microsoft Edge**, navigate to the [**Microsoft 365 admin center**](https://admin.microsoft.com/).
+1. On LON-CL1 virtual machine. In **Microsoft Edge** as Holly Dickson and credentials given in Environment Details Page, navigate to the [**Microsoft 365 admin center**](https://admin.microsoft.com/).
 
 2. In the **Microsoft 365 admin center**, in the left navigation pane, select **… Show all**.
 

@@ -8,11 +8,9 @@ You have a Global Admin account set up for Holly Dickson, and you&#39;re signed 
 
 1. In Internet Explorer browser, navigate to `https://portal.office.com/`. 
 
-1. In the **Pick an account** window, only the admin account that you just logged out from appears. Select **Use another account**. 
-
 1. In the **Sign in** window, enter **Holly@xxxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**.
 
-1. In the **Enter password** window, enter `Pa55w.rd` and then select **Sign in**.
+1. Select **Password** from Environment details page and then select **Sign in**.
 
 1. If a **Get your work done with Office 365** window appears, select the **X** to close it. 
 
@@ -95,6 +93,8 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 10. On the **Users and domains** pane, enter `Inside Sales`in the **Group** field, select it from the list. Click **Next**.
 
+    ![](../Media/154.png)
+
 11. On the **Protection settings** pane, select the following options and click **Next**:
 
     - Under **Select the action for unknown potentially malicious URLs in messages**: Select **On – URLs will be rewritten and checked against a list of known malicious links when user clicks on the link**.
@@ -104,6 +104,8 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
     - Select the check box next to **Apply real-time URL scanning for suspicious links and links that point to files**.
 
     - Select the check box next to **Apply safe links to email messages sent within the organization**.
+
+    ![](../Media/155.png)
 
 12. On the **Notification** pane, leave the default notification text selected. Click **Next**.
 
@@ -125,7 +127,7 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
 5. In the right pane, enter the following email information:
 
-    - To: You will be sending an email to the MOD Administrator, so enter **mod** in the **To** field and then select the **MOD Administrator** email address from the drop-down list.
+    - To: You will be sending an email to the MOD Administrator, so enter **odl** in the **To** field and then select the **MOD Administrator** email address from the drop-down list.
 
     - Add a subject: `Free stuff from Microsoft`
 
@@ -143,13 +145,13 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
 12. Select **Send** in the menu bar that appears above the message (or the **Send** button at the bottom of the page).
 
-13. You now want to open the MOD Administrator&#39;s Inbox in Outlook and validate whether the ATP policy you created in the prior task worked on the email that you just sent from Holly. To do this, you need to open new Inprivate window.
+13. You now want to open the MOD Administrator&#39;s Inbox in Outlook and validate whether the ATP policy you created in the prior task worked on the email that you just sent from Holly. To do this, you need to **Open new Inprivate window.**
 
-14. Log into the VM as the **Admin** account by entering **Password** given in Environment Details page if field necessary.
+14. Enter the following URL in the address bar: `https://outlook.office365.com`
 
-15. Select the **Microsoft Edge** icon in the taskbar, maximize the window and then enter the following URL in the address bar: `https://outlook.office365.com`
+15. Since you want to sign in as the MOD Administrator, in the **Sign-in** window, enter **admin@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider).
 
-16. Since you want to sign in as the MOD Administrator, in the **Sign-in** window, enter **admin@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and then select **Next**.
+16. Then select **Next**.
 
 17. In the **Enter password** window, enter the password provided by your lab hosting provider and select **Sign in**.  If you are requested to provice self-service password information click **cancel**.
 
@@ -165,7 +167,7 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
     When you select the hyperlink to open it, a new tab in **Edge** opens that displays the following warning message: **Opening this website might not be safe.** This message indicates that your ATP Safe Links policy is working correctly and access to the URL is blocked with ATP Safe Links.
 
-23. Leave the Client 2 VM open and leave Outlook open to the MOD Administrator&#39;s Inbox for later.
+23. Leave the Inprivate window open and leave Outlook open to the MOD Administrator&#39;s Inbox for later.
 
 ### Task 3 – Create a Safe Attachment policy and turn on ATP for SharePoint, OneDrive, and Microsoft Teams
 
@@ -181,17 +183,21 @@ In this task, you will, and you&#39;ll create an ATP Safe Attachments policy tha
 
 5. On the **Safe attachments** window, at the top of the page under **Global Settings** in the **Protect files in SharePoint, OneDrive, and Microsoft Teams** section, select the **Turn on Defender for Office 365 for SharePoint, OneDrive and Microsoft Teams** switch. Select **Save**.
 
+   ![](../Media/156.png)
+
 6. Select the **+ Create** on the menu bar to add a new safe attachments policy.
 
 7. In the new safe attachments policy window, enter `AttachmentPolicy1` in the **Name** field then select **Next**.
 
-8. In the **Users and domains**, enter `All Company` in the **Users** field then select **Next**.
+8. In the **Users and domains**, enter `Joni Sherman` in the **Users** field then select **Next**.
 
 9. Under the **Safe attachments unknown malware response** section, select **Dynamic Delivery** (this option will still send the email but will hold the attachment until it has been scanned and marked acceptable).
 
 10. Under the **Redirect messages with detected attachments** section, select **Enable redirect**.
 
 11. In the **Send messages that contain blocked, monitored, or replaced attachments to the specified email address** field, enter **JoniS@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
+
+    ![](../Media/157.png)
 
 1. On the **Review** window, note the two messages displayed regarding the **Safe Attachents detection response:** and **Redirect attachments:** options that were selected. select **Submit**.
 

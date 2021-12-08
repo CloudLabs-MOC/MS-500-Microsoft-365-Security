@@ -40,7 +40,7 @@ In this task, you will create an encryption rule for messages inside your Exchan
 
 6. At the top of the **mail flow** page, the **rules** tab displays by default. In the **rules** tab, select the plus sign (**+**) to create a new rule. This displays a drop down menu of actions. Select **Create a new rule.**
 
- ![](../Media/121.png)
+ ![](../Media/mf.png)
 
 7. In the **new rule** window, in the **Name** box, enter `Encrypt mail for guest@contoso.com` as the name of this rule.
 

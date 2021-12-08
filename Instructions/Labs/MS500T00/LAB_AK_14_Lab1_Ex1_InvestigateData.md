@@ -51,7 +51,7 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 ![](../Media/M014.8.png)
 ![](../Media/M014.9.png)
 
- **Note**: If you cannot see **Search** in the navigation pane yet, you need to reload the browser tab with the **Security and Compliance Center.**
+   **Note**: If you cannot see **Search** in the navigation pane yet, you need to reload the browser tab with the **Security and Compliance Center.**
 
 13. On the **Content search** window, in the **Searches** tab, select **(+) Guided search** on the top menu. This will initiate the **New search** wizard.
 

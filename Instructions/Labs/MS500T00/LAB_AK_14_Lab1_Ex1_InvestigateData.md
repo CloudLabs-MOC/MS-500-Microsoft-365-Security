@@ -36,7 +36,7 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
 ![](../Media/M014.6.png) 
 
-    ‎**Note:** You are adding Joni to the eDiscovery Manager role group for later use in this exercise, and you are assigning Holly to the role group for use in the next exercise.
+    **Note:** You are adding Joni to the eDiscovery Manager role group for later use in this exercise, and you are assigning Holly to the role group for use in the next exercise.
 
 9. You should see a banner with the message **2 members added**. Select **Done** and then **Save**.
 
@@ -52,7 +52,7 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 ![](../Media/M014.9.png)
 
   
-    ‎**Note**: If you cannot see **Search** in the navigation pane yet, you need to reload the browser tab with the **Security and Compliance Center.**
+    **Note**: If you cannot see **Search** in the navigation pane yet, you need to reload the browser tab with the **Security and Compliance Center.**
 
 13. On the **Content search** window, in the **Searches** tab, select **(+) Guided search** on the top menu. This will initiate the **New search** wizard.
 

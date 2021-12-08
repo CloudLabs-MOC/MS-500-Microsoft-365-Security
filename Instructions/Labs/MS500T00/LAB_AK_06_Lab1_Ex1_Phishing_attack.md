@@ -7,7 +7,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 ### Task 1: Enable Mulit-factor authentication for Holly Dickson
 
 
-1.  On LON-CL1, Go to the Office 365 Security & Compliance center `https://protection.office.com` and login as **Holly Dickson**.
+1.  On LON-CL1, Go to the Office 365 Security & Compliance center `https://protection.office.com` and login as **Holly Dickson** as credentials given in Lab Environment Details Page.
 
 2.  Click **Threat management**, and then click **Attack simulator**.
 
@@ -37,11 +37,11 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 ### Task 2: Configure and launch a Spear Phishing attack
 
-1. Go to [Microsoft 365 security center - Attack simulation training](https://security.microsoft.com/attacksimulator) and login as **Holly Dickson**.
+1. Go to [Microsoft 365 security center - Attack simulation training](https://security.microsoft.com/attacksimulator) and login as **Holly Dickson** as credentials given in Lab Environment Details Page.
 1. Click the **Simulations** tab. Select **+ Launch a Simulation**.
 
 	![](../Media/76.png)
-3. On the **Select Technique** screen. Ensure that **Credential Harvest** is selected. Click **Next**.
+1. On the **Select Technique** screen. Ensure that **Credential Harvest** is selected. Click **Next**.
 
 1. Name the simulation `Spear Simulation` and select **Next**.
 1. On the **Select Payload** screen, select a desired payload from the list of provided payloads. Click **Next**.

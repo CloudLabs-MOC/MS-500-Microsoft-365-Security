@@ -10,7 +10,7 @@ In this exercise, you will set up Privileged Access Management and create an acc
 Before you start using privileged access, determine who needs approval authority for incoming requests for access to elevated and privileged tasks. Any Global Admin who is part of the Approvers' group is able to approve access requests.  Adatum has decided to make the MOD Administrator, the user who will approve access requests.
 
 
-1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** and Password as **Pa55w.rd**. 
+1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** and credentials given in Lab Environment Details Page. 
 
 2. In your **Microsoft Edge** browser, if you have the **Microsoft 365 admin Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://admin.microsoft.com`.
 
@@ -116,6 +116,8 @@ Comments: `I need to move mailboxes for the new department today`.
 4. By default the **All Requests** view should display all Privileged Access Requests.
 
 5. Select the request for **Move Mailboxes** access with the status of **Pending**.
+
+   ![](../Media/149.png)
 
 6. In the **Compliance Admin** screen select **Approve**.  Select **Close**.
 

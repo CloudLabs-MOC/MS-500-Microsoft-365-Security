@@ -4,7 +4,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 
 ### Task 1 - Configure your UPN suffix
 
-1.  On LON-DC1, log on as **Adatum\Administrator** and password assigned from your lab hoster.
+1.  On LON-DC1, log on as **azureuser** and password assigned from your lab hoster.
 2.  Using Windows PowerShell as administrator, update the UPN suffix for the domain and on the UPN on every user in AD DS with “@zzzzzzz.onmicrosoft.com” (where zzzzzzz is your unique UPN name) for the domain name. To do this, run the following command (remember to change zzzzzzz to your unique UPN name example:azureholxxxx):
 
     	Set-ADForest -identity "adatum.com" -UPNSuffixes @{replace="zzzzzzz.onmicrosoft.com"}  
@@ -22,7 +22,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 ### Task 2 - Enable Directory Synchronization
 
 1.  Open your browser and go to `https://portal.office.com/`   
-2.  Sign in as **holly@M365xZZZZZZ.onmicrosoft.com** as given in Environment details page.  
+2.  Sign in as **holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) In the **Enter password** window, enter the password provided by your lab hosting provider.
 3.  Click **Admin** to go to the Microsoft 365 admin center.
 
 	![](../Media/30.png)
@@ -49,7 +49,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 
 		
 	  ![](../Media/34.png)
-5.	On the **Connect to Azure AD** screen enter your Office 365 admin username of **holly@M365xZZZZZZ.onmicrosoft.com** with password given in environment details page and click Next.   
+5.	On the **Connect to Azure AD** screen enter your Office 365 admin username of **holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and enter the password provided by your lab hosting provider and click Next.   
 6.	If there is a pop up sign in window **Connect to AD DS** screen enter your domain administrator **Admin@M365xZZZZZZ.onmicrosoft.com** and password `ycYoe&L20a%%`.
 
 		
@@ -70,7 +70,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 ### Task 4 - Validate the results of directory synchronization and license a user. 
 
 1.	To verify the new user you created open the Office 365 Admin Center in the browser by typing `https://portal.office.com` in the address bar.  
-2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@M365xZZZZZZ.onmicrosoft.com**, Password given in environment details page. 
+2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@M365xZZZZZZ.onmicrosoft.com**, (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and enter the password provided by your lab hosting provider.
 3.	Navigate to the **Active Users**.  
 
 		

@@ -2,6 +2,75 @@
 
 You have a Global Admin account set up for Holly Dickson, and you&#39;re signed into Microsoft 365 as Holly. In this phase of your pilot project for Adatum, you want to edit an existing ATP Safe Links policy, and then create a Safe Attachments policy and turn on Advanced Threat Protection for SharePoint, OneDrive, and Microsoft Teams. You will also validate both policies to ensure they work properly.
 
+### Task 0 - Create and Manage Groups
+
+1. You need to loggin into your domain controller 1 VM as the **LON-DC1\Azureuser Admin** account.
+
+1. In Internet Explorer browser, navigate to `https://portal.office.com/`. 
+
+1. In the **Pick an account** window, only the admin account that you just logged out from appears. Select **Use another account**. 
+
+1. In the **Sign in** window, enter **Holly@xxxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**.
+
+1. In the **Enter password** window, enter `Pa55w.rd` and then select **Sign in**.
+
+1. If a **Get your work done with Office 365** window appears, select the **X** to close it. 
+
+1. In the **Office 365 home page**, select **Admin** to open the Microsoft 365 admin center (if **Admin** is covered by an **Office 365 apps** box, select **Got it!** to close the box).
+
+	![](../Media/2.png)
+
+1. If a survey window appears, select **Cancel**.
+
+1. In the **Microsoft 365 admin center**, select **Teams & Groups** in the left navigation pane, and then under it, select **Active Teams & Groups**. 
+
+	![](../Media/3.png)
+
+1. In the **Active Teams & Groups** page, select **Add a group** that appears on the menu bar above the list of groups.  
+
+1. In the **Choose a group type** window, select **Microsoft 365 (recommended)** and then select **Next**. 
+
+1. In the **Set up the basics** window, enter `Inside Sales` in the **Name** field, and then enter `Collaboration group for the Inside Sales team.` in the **Description** field. Select **Next**.
+
+	![](../Media/4.png)
+
+1. In the **Assign Owners** window, you will assign Allan Deyoung and Patti Fernandez as owners of this group. 
+	- Enter `Allan` in the **Owners** field. In the drop-down menu that appears, select **Allan Deyoung**. 
+	- Enter `Patti` in the **Owners** field. In the drop-down menu that appears, select **Patti Fernandez**. 
+	- Select **Next**.
+
+1. Leave default settings and click 'Next' under Members.
+
+1. In the **Edit settings** window, enter `insidesales` in the **Group email address** field. Under the **Privacy** section, verify the **Public** option is selected (select it if need be), and under the **Add Microsoft Teams to your group** section, verify the **Create a team for this group** checkbox is selected (select it if need be). Select **Next**. 
+
+	![](../Media/5.png)
+
+1. In the **Review and finish adding group** window, review the content that you entered. If everything is correct, select **Create group**; otherwise, select **Back** and fix anything that needs correction (or select **Edit** under the specific area that needs adjustment).
+
+1. On the **New group created** window, note the comment at the top of the page that it may take 5 minutes for the new group to appear in the list of groups. </br>
+
+	Select **Close**. This returns you to the **Groups** page.
+   
+1. If groups do not appear in the **Groups** list, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional few minutes for both groups to appear.
+
+1. You’re now ready to add members to the groups. In the list of **Groups**, select the **Inside Sales** group, which opens a window for the group. 
+
+1. In the **Inside Sales** group window, select the **Members** tab.
+
+1. Under the **Members** section, you can see the two owners (Allan and Patti), but you can also see that there are zero (0) members. Select **View all and manage members** to add members to the group. 
+
+	![](../Media/7.png)
+
+1. In the **Inside Sales** group window, select **+ Add members**. This displays the list of current users.
+
+1. In the list of users, select **Diego Siciliani** and **Lynne Robbins**, and then scroll to the bottom and select **Add (2)**. 
+
+	![](../Media/8.png)
+
+1. Select **Back arrow**. 
+
+1. On the **Inside Sales** window, Diego and Lynne should now appear as members of the group. Select the **X** in the upper right corner to close the window.
+
 ### Task 1 – Create a Safe Links Policy
 
 In this task, you will add the URL **http://tailspintoys.com** to the company-wide list of blocked URLs, and you will create an ATP safe links recipient policy that applies to all users in your tenant.

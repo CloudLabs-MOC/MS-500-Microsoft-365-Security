@@ -8,7 +8,7 @@ You are now at the point in your pilot project where you want to test policies. 
 
 In the previous exercise, you created a custom DLP policy that searches emails for sensitive information related to U.S. Social Security numbers in your Adatum tenant. In this exercise, you will send an email with a social security number from Holly Dickson to Alex Wilber.
 
-1. Switch to the Client 1 VM (**LON-CL1**), in which you should still be logged into Microsoft 365 as Holly Dickson (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of `Pa55w.rd`. 
+1. Switch to the Client 1 VM (**LON-CL1**), in which you should still be logged into Microsoft 365 as Holly Dickson (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password given in Environment Dteails page of lab guide. 
 
 2. You will now send an email from Holly to Alex; the email will contain US Social Security numbers. In **Microsoft Edge**, the **Outlook on the web** tab should still be open for Holly. Select the **Outlook on the web** tab.  If not open a browser to `https://portal.office.com`, make sure you are signed-in as Holly Dickson and select **Outlook**.
 
@@ -39,45 +39,37 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 
 11. Select **Send.**
 
-12. Switch to the Client 2 VM (**LON-CL2**). 
+12. Open New InPrivate window and enter the following URL in the address bar: `https://outlook.office365.com`
 
-13. If you need to sign into the VM, the **Admin** account should appear by default, so enter `Pa55w.rd` in the **Password** field to log in. 
+13. You want to sign into **Outlook on the web** as **Alex Wilber**. If the **Pick an account** window appears, Alex’s account won’t appear since she hasn’t signed in before. Therefore, select **Use another account**. 
 
-14. Switch to the Client 2 VM (**LON-CL2**).
+14. In the **Sign in** window, enter **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and then select **Next.**
 
-15. In the **Edge** browser, if there are still signed in sessions, sign out of the current user account and close all **Edge** browser tabs.
+15. In the **Enter password** window, enter Alex's password (hint: it's probably the same as the MOD admin password) and then select **Sign in**.
 
-16. Open your **Edge** browser, maximize the window and enter the following URL in the address bar: `https://outlook.office365.com`
+16. In the **Stay signed in?** window, select **Don’t show this again** and then select **Yes**.
 
-17. You want to sign into **Outlook on the web** as **Alex Wilber**. If the **Pick an account** window appears, Alex’s account won’t appear since she hasn’t signed in before. Therefore, select **Use another account**. 
-
-18. In the **Sign in** window, enter **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and then select **Next.**
-
-19. In the **Enter password** window, enter Alex's password (hint: it's probably the same as the MOD admin password) and then select **Sign in**.
-
-20. In the **Stay signed in?** window, select **Don’t show this again** and then select **Yes**.
-
-21. If you approach the site for the first time, you may be asked for your language setting and your time zone:
+17. If you approach the site for the first time, you may be asked for your language setting and your time zone:
 
 	- From the **Language** dropdown select **English (United States).**
 
 	- From the **Time zone** dropdown select your preferred time zone.
 
-22. Select **Save**.
+18. Select **Save**.
 
-23. If a window is displayed asking whether you want to try the new outlook, select **Try the new Outlook.**
+19. If a window is displayed asking whether you want to try the new outlook, select **Try the new Outlook.**
 
-24. If a **Welcome** window appears, then close it now.
+20. If a **Welcome** window appears, then close it now.
 
-25. In **Outlook on the web**, in Alex’s **Inbox**, you should see the email message that Holly just sent to Alex containing a single SSN number.
+21. In **Outlook on the web**, in Alex’s **Inbox**, you should see the email message that Holly just sent to Alex containing a single SSN number.
 
-26. The email with multiple SSNs should have been blocked and a warning message should appear in Holly's inbox (on LON-CL1) that looks something like this:
+22. The email with multiple SSNs should have been blocked and a warning message should appear in Holly's inbox (on LON-CL1) that looks something like this:
 
      ![Screenshot](../Media/DLP_policy_validation.png)
 
-27. Delete the message from Alex’s Inbox as the last operation in this exercise. You have now successfully tested your custom DLP policy.
+23. Delete the message from Alex’s Inbox as the last operation in this exercise. You have now successfully tested your custom DLP policy.
 
-28. Leave both client VMs open for the next lab. Do not close any of the browser tabs.
+24. Leave both client VMs open for the next lab. Do not close any of the browser tabs.
 
 **TROUBLESHOOTING this lab**
 

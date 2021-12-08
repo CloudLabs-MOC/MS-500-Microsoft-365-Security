@@ -6,9 +6,9 @@ You have a Global Admin account set up for Holly Dickson, and you&#39;re signed 
 
 In this task, you will add the URL **http://tailspintoys.com** to the company-wide list of blocked URLs, and you will create an ATP safe links recipient policy that applies to all users in your tenant.
 
-1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should still be logged into Microsoft 365 as **Holly Dickson**.
+1. You should  be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** as credential given in lab environment details page.
 
-2. You should still be in the Microsoft 365 Security and Compliance center. If not, in your browser, enter `https://protection.office.com`
+2. You should be in the Microsoft 365 Security and Compliance center. If not, in your browser, enter `https://protection.office.com`
 
 3. In the **Security &amp; Compliance center**, in the left navigation pane, select **Threat Management** and then select **Policy**.
 
@@ -24,13 +24,13 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 9. On the **Name your policy** pane, enter a unique name to your lab session `Unique Name` in the **Name** field. Click **Next**.
 
-10. On the **Users and domains** pane, enter `All Company`in the **Group** field, select it from the list. Click **Next**.
+10. On the **Users and domains** pane, enter `Inside Sales`in the **Group** field, select it from the list. Click **Next**.
 
 11. On the **Protection settings** pane, select the following options and click **Next**:
 
     - Under **Select the action for unknown potentially malicious URLs in messages**: Select **On – URLs will be rewritten and checked against a list of known malicious links when user clicks on the link**.
 
-    - Also select **On** for unknown or potentially malicious URLs within Microsoft Teams.
+    - Also **select On for unknown or potentially malicious URLs within Microsoft Teams**.
 
     - Select the check box next to **Apply real-time URL scanning for suspicious links and links that point to files**.
 
@@ -74,9 +74,9 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
 12. Select **Send** in the menu bar that appears above the message (or the **Send** button at the bottom of the page).
 
-13. You now want to open the MOD Administrator&#39;s Inbox in Outlook and validate whether the ATP policy you created in the prior task worked on the email that you just sent from Holly. To do this, you must switch the Client 2 VM (LON-CL2).
+13. You now want to open the MOD Administrator&#39;s Inbox in Outlook and validate whether the ATP policy you created in the prior task worked on the email that you just sent from Holly. To do this, you need to open new Inprivate window.
 
-14. Log into the VM as the **Admin** account by entering **Ps55w.rd** in the **Password** field if necessary.
+14. Log into the VM as the **Admin** account by entering **Password** given in Environment Details page if field necessary.
 
 15. Select the **Microsoft Edge** icon in the taskbar, maximize the window and then enter the following URL in the address bar: `https://outlook.office365.com`
 

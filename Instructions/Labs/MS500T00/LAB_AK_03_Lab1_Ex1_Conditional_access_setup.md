@@ -48,7 +48,7 @@ In your policy, set:
     b. On the **Select** page, select `Patti Fernandez`, and then click **Select**.
     
     
- ![](../Media/41.png)
+ ![](../Media/ms-500m03.png)
  
 9.  Back on the New page click **Cloud apps or actions**.
 

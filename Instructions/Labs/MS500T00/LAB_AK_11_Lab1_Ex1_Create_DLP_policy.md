@@ -69,6 +69,8 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 1. On the **Test or turn on policy** page select **Turn it on right away** and select **Next**.
 
   ![](../Media/141.png)
+  
+  >Note: It will take more than an hour to take the effect.
 
 1. Click **Submit**
 

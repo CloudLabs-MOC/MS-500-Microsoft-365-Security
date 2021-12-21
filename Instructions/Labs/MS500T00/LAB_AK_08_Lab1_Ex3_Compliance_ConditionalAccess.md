@@ -12,7 +12,7 @@ If the device does not meet these requirement, the device should be marked as no
 
 #### Task 1: Create and apply compliance policy and enrollment restrictions
 
-1.  In Microsoft Edge, type `https://endpoint.microsoft.com` in the  address bar, and then press **Enter**. Sign in as as **admin\@yourtenant.onmicrosoft.com** with the default tenant password.
+1.  In Microsoft Edge, type `https://endpoint.microsoft.com` in the  address bar, and then press **Enter**. Sign in as as **Odl_User_id@yourtenant.onmicrosoft.com** with the password as provided in the Environment tab.
 
 1.  From the navigation pane click **Devices**, then click **Compliance Policies**.
 
@@ -82,10 +82,9 @@ If the device does not meet these requirement, the device should be marked as no
 
 When devices are non-compliant, they should not be able to access their e-mail. You've been asked to configure a conditional access policy that enforces this rule, and verify it functions as expected.
 
+1.  In the **Microsoft Endpoint Manager admin center** click **Devices**, then click **Conditional Access**.
 
-1.  On **LON-CL1**, in the **Microsoft Endpoint Manager admin center** click **Devices**, then click **Conditional Access**.
-
-1.  In the **Conditional Access | Policies** pane, click **+ New policy**.
+1.  In the **Conditional Access | Policies** pane, click **+ New policy** and select **Create New Policy**.
 
     ![](../Media/101.png)
 
@@ -113,7 +112,7 @@ When devices are non-compliant, they should not be able to access their e-mail. 
 
 #### Task 3: Verify that the conditional access policy is working
 
-1.  On **LON-CL1**, open a new Microsoft Edge tab, then and open `https://portal.office.com`.
+1.  Open a new Microsoft Edge tab, then and open `https://portal.office.com` with the **Odl_User_id@yourtenant.onmicrosoft.com** with the password as provided in the Environment tab..
 
 1.  Click the **Outlook** icon. 
 

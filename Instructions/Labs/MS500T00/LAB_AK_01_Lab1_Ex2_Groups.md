@@ -125,16 +125,15 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 	- You must run the following command to connect with an authenticated account to use Active Directory cmdlet requests: <br/> 
 	
-		`Install-Module AzureAD`
 		`Connect-AzureAD`   
 
-	- A new window will appear requesting your credentials. Sign in using Holy's Microsoft 365 account of **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and **Pa55w.rd** as the Password.  
+	- A new window will appear requesting your credentials. Sign in using Holy's Microsoft 365 account of **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) as you created earlier and **Pa55w.rd** as the Password.  
 
 	- You should then run the following command to display the repository of deleted groups (this should display the **Inside Sales** group that you earlier deleted):<br/>  
 	
 		`Get-AzureADMSDeletedGroup`   
 
-	- Before you can restore this deleted group, you must first copy the Object ID of the Inside Sales group that appears in the table of deleted groups. When you perform the next command to restore the group, you will use this ID to identify the group that you want restored. <br/>
+	- Before you can restore this deleted group, you must first copy the Object ID of the Inside Sales group that appears in the previous command. When you perform the next command to restore the group, you will use this ID to identify the group that you want restored. <br/>
 	
 		To copy the ID, select the entire ID and then press Ctrl-C.
 

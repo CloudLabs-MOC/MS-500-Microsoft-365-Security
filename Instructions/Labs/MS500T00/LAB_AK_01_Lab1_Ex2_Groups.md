@@ -11,7 +11,7 @@ In this task, you will begin implementing Adatum’s Microsoft 365 pilot project
 
 In this task, you will create two new groups and then manage the groups by assigning users to them. One group will be an Office 365 group and the other a Security group; this will enable you to see some of the differences in the two types of groups. After creating the groups, you will then delete one of them. This will set up the next task, which examines how to recover a deleted group using Windows PowerShell.
 
-1. You should still be logged into your domain controller 1 VM as the **LON-DC1\Azureuser Admin** account, and you should be logged into Microsoft 365 as **ODL_USER_ID Administrator**. On the **Microsoft 365 admin center** tab, select the user icon for the **ODL_USER_ID Administrator** (the **MA** circle) in the upper right corner of your browser, and in the **My account** pane, select **Sign out.** <br/>
+1. You should still be logged into your domain controller 1 VM as the **Adatum\Azureuser Administrator** account, and you should be logged into Microsoft 365 as **ODL_USER_ID Administrator**. On the **Microsoft 365 admin center** tab, select the user icon for the **ODL_USER_ID Administrator** in the upper right corner of your browser, and in the **My account** pane, select **Sign out.** <br/>
 	
 	**Important:** When signing out of one user account and signing in as another, you should close all your browser tabs except for your current tab. This is a best practice that helps to avoid any confusion by closing the windows associated with the prior user. Take a moment now and close all other browser tabs except for the **Sign out** tab. 
 	

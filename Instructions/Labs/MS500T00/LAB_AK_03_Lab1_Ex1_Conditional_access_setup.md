@@ -41,11 +41,9 @@ In your policy, set:
 
 8.  On the **Users and groups** page, perform the following steps:
 
-
-    a. Click **Select users and groups**, and then select **Users and groups**.
+ a. Click **Select users and groups**, and then select **Users and groups**.
     
-
-    b. On the **Select** page, select `Patti Fernandez`, and then click **Select**.
+ b. On the **Select** page, select `Patti Fernandez`, and then click **Select**.
     
     
  ![](../Media/ms-500m03.png)
@@ -56,13 +54,11 @@ In your policy, set:
 
 10. On the **Cloud apps or actions** page, perform the following steps:
 
+  a. Click **Select apps**.
 
+  b. Click **Select**.
 
-    a. Click **Select apps**.
-
-    b. Click **Select**.
-
-    c. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
+  c. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
 
  ![](../Media/42.png)
  
@@ -80,7 +76,7 @@ In your policy, set:
 
 14.  Click **Create**.
 
-    **Note:** If the policy fails check your work and **Create** again.
+ **Note:** If the policy fails check your work and **Create** again.
  
  ![](../Media/44.png)
  

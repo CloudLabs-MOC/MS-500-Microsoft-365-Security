@@ -83,8 +83,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 	- site name: `marketing`
 	
 	- Web Site Address: leave the default values in the two drop-down fields. 
-
-
+	
 	- Administrator: Enter **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and then select the **Check Names** icon to the right of the field; once the username is validated, it will be replaced with **Holly Dickson.**
 
 	- Language: select your language

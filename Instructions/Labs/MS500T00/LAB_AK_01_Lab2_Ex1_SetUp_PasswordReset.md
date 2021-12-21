@@ -8,7 +8,7 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 1.  Switch to **LON-CL1** and sign in as **Adatum\Azureuser Administrator** with the password as povided in the Environment tab.
 
-1.  On the task bar select **Microsoft Edge**, open Azure by going to `https:/portal.azure.com/`.  Login as Holly Dickson from the previous lab. Navigate to **Azure Active Directory**
+1.  Open **Microsoft Edge**, open Azure by going to `https:/portal.azure.com/`.  Login as Holly Dickson from the previous lab. Navigate to **Azure Active Directory**
         
 1.  In the navigation pane under **Manage** select **Users**, then select **Password reset**.
 

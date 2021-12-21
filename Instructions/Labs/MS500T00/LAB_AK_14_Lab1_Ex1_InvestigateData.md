@@ -73,11 +73,11 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
  
     ![](../Media/M014.17.png) 
 
-If you didn't send emails during the DLP lab earlier in the course then no data will appear in this search.  If this happened, while the search is running, you could switch back to **LON-CL1** and send emails with the keyword terms mentioned in this lab to other users in your tenant.  You may have to run this search again to view data if you do that.
+If you didn't send emails during the DLP lab earlier in the course then no data will appear in this search.  If this happened, while the search is running, you could switch back and send emails with the keyword terms mentioned in this lab to other users in your tenant.  You may have to run this search again to view data if you do that.
 
 You can let the search run while you proceed with the remainder of this exercise. 
 
-1. Leave the Client 2 VM open as well as all browser tabs and continue with the next task.
+1. Leave it and open as well as all browser tabs and continue with the next task.
 
 You have successfully assigned an eDiscovery role to Joni and performed a content search for a specific key word across all locations of your tenant.
 
@@ -86,7 +86,7 @@ You have successfully assigned an eDiscovery role to Joni and performed a conten
 
 In this task, you will create an eDiscovery case with a configured hold and content search for any violations regarding social security numbers. You will continue using Joni Sherman’s user account. Having been assigned the eDiscovery Managers role in the prior task, Joni has the permissions necessary to create an eDiscovery case.
 
-1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account and signed into Microsoft 365 as Joni Sherman. However, if you have been signed out of Microsoft 365, then on the Microsoft 365 sign-in page, sign into Joni’s **JoniS@M365xZZZZZZ.onmicrosoft.com** account using her password assigned by your lab hoster.
+1. You should still be logged into your VM and signed into Microsoft 365 as Joni Sherman. However, if you have been signed out of Microsoft 365, then on the Microsoft 365 sign-in page, sign into Joni’s **JoniS@M365xZZZZZZ.onmicrosoft.com** account using her password assigned by your lab hoster.
 
 1. The **Security and Compliance Center** should still be open in a tab in Microsoft Edge. If so, select that tab now. If not, then enter the following URL in the address bar: `https://protection.office.com`. 
 

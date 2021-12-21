@@ -9,8 +9,6 @@ In this exercise you will verify that Adatum has installed the Enterprise Mobili
 
 In this task you will verify that Adatum has installed the Enterprise Mobility + Security E5 product and you will check how many licenses are available. You will then verify that a license has been assigned to your test user accounts, and you will assign a license to Holly Dickson.
 
-1. Log into your Client 1 VM (LON-CL1) as the **Adatum\Azureuser Administrator** account. 
-
 1. In **Microsoft Edge**, open **https://portal.office.com**, sign in as as Holly Dickson **(holly@AzureHOLxZZZZZZ.onmicrosoft.com)** with a password as provided in the Environment tab, and in the **Microsoft Office Home** page, select **Admin**.
 
    ![](../Media/82.png)

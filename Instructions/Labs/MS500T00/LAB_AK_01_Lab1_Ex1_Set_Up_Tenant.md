@@ -183,6 +183,8 @@ You will then create several additional user accounts in the Microsoft 365 admin
 1. On the **Holly Dickson has been added to active users** page, select **Close.** 
 
 	![](../Media/ms-500-image-20.jpg)
+	
+	**Note**: Make a note of the **username** and **password** of Holly that you have created, so that you can use for the further labs.
 
 1. Remain logged into the domain controller VM with the Microsoft 365 admin center open in your browser for the next task.
 
@@ -202,7 +204,6 @@ Azure Active Directory is needed to perform several configuration steps when ins
 1. In **Windows PowerShell**, type the following command and then press Enter:
 
 	`Install-Module MSOnline` 
-
 
 1. If you are prompted to install the **NuGet provider**, enter **Y** to select **[Y] Yes**. Press Enter key. 
 

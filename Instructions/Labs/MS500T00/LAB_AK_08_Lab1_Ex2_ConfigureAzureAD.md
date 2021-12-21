@@ -16,7 +16,7 @@ In this exercise you will activate the automatic client enrollment to Intune for
 
 1. Select **Restore default MDM URLs** to ensure the correct URLs for client enrollment are configured.
 
-1. In the menu bar at the top of the **Configure** window, select **Save**.
+1. If any changes made, then in the menu bar at the top of the **Configure** window, select **Save**.
 
 1. Leave the Azure portal open for the next task.
 
@@ -77,9 +77,9 @@ You have changed the default settings for users to join their devices to your Az
 
 1. On the **Dynamic membership rules** pane, configure the following fields for this expression:
 
-    - Property: select the drop-down arrow and select **managementType**
-    - Operator: select the drop-down arrow and select **Equals**  
-    - Value: enter `MDM`
+    - **Property**: select the drop-down arrow and select **managementType**
+    - **Operator**: select the drop-down arrow and select **Equals**  
+    - **Value**: enter `MDM`
 
    ![](../Media/89.png)
 

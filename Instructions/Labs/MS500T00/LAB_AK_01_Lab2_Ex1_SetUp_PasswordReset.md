@@ -49,6 +49,10 @@ With SSPR enabled and configured, test the SSPR process with a user that's part 
 
 1. Browse to the self service password registration page at [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
 
+1. If **Stay signed in?** dialog box appear, select the **Don’t show this again** checkbox and then select **Yes.**.
+
+1. If **More action Required** dialog box appear, click on **Next**.
+
 1. On the **Security info** page, click **Add method**. Select your desired authentication method such as **Phone** and proceed through the setup steps.
 
     ![](../Media/15.png)

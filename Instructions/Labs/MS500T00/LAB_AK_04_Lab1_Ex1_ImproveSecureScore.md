@@ -17,8 +17,8 @@ Microsoft Security center constantly reviews active recommendations and calculat
 
 2.  At the top you can see Secure score highlights:
 
-       - The **Secure Score** represents the score per policies, per selected subscription
-       - Secure score by category shows you which resources need the most attention.
+    - The **Secure Score** represents the score per policies, per selected subscription
+    - Secure score by category shows you which resources need the most attention.
  
     ![Screenshot](../Media/SecureScore.png)
 

@@ -70,8 +70,8 @@ To prove that your conditional access policy works, you test logging in to a res
 
 2.  Open a new browser window in InPrivate or incognito mode and browse to **`https://portal.azure.com`**
 
-       * Log in with the Lynne Robbins user (Lynne's password is likely the same as the MOD Administrator password provided by your lab hoster) and note that you should now be required to register for and use Azure Multi-Factor Authentication.
-       * Close the browser window.
+     * Log in with the Lynne Robbins user (Lynne's password is likely the same as the MOD Administrator password provided by your lab hoster) and note that you should now be required to register for and use Azure Multi-Factor Authentication.
+     * Close the browser window.
 
 
 

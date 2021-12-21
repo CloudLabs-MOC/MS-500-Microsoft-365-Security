@@ -1,7 +1,6 @@
 # Module 3 - Lab 2 - Exercise 1 - Manage Azure Resources
 
 
-**Scenario**
 
 In this lab, you will learn how to use Azure Privileged Identity Management (PIM) to enable just-in-time administration and control the number of users who can perform privileged operations. You will also learn about the different directory roles available as well as newer functionality that includes PIM being expanded to role assignments at the resource level. 
 

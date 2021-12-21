@@ -7,7 +7,7 @@ In the following lab exercise, you will take on the role of Holly Dickson, Adatu
 
 ### Task 2 – Create and Manage Groups  
 
-In this task, you will begin implementing Adatum’s Microsoft 365 pilot project as Holly Dickson, Adatum’s new Security Administrator. Therefore, you will begin this task by logging out of Microsoft 365 as the MOD Administrator and you will log back in as Holly.<br/>
+In this task, you will begin implementing Adatum’s Microsoft 365 pilot project as Holly Dickson, Adatum’s new Security Administrator. Therefore, you will begin this task by logging out of Microsoft 365 as the ODL_USER_id Administrator and you will log back in as Holly.<br/>
 
 In this task, you will create two new groups and then manage the groups by assigning users to them. One group will be an Office 365 group and the other a Security group; this will enable you to see some of the differences in the two types of groups. After creating the groups, you will then delete one of them. This will set up the next task, which examines how to recover a deleted group using Windows PowerShell.
 
@@ -117,7 +117,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 **NOTE:** You should have installed the Windows Azure Active Directory PowerShell Module in the prior lab.   
 
-1. If you’re not logged into the **LON-DC1** VM as **ADATUM\Administrator** and password **Pa55w.rd**, then please do so now.
+1. If you’re not logged into the **LON-DC1** VM as **ADATUM\Administrator** and password as provided in the Environment tab.
 
 1. If Windows PowerShell is still open from the previous exercise, select the **Windows PowerShell** icon on the taskbar; otherwise, you must open an elevated instance of Windows PowerShell just as you did before. Maximize your PowerShell window.
 

@@ -4,7 +4,7 @@ You have a Global Admin account set up for Holly Dickson, and you&#39;re signed 
 
 ### Task 0 - Create and Manage Groups
 
-1. You need to loggin into your domain controller 1 VM as the **LON-DC1\Azureuser Admin** account.
+1. You need to login into your domain controller 1 VM as the **LON-DC1\Azureuser Admin** account.
 
 1. In Internet Explorer browser, navigate to `https://portal.office.com/`. 
 

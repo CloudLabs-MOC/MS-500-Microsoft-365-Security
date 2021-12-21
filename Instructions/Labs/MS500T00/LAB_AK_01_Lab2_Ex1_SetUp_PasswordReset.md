@@ -1,19 +1,15 @@
 # Module 1 - Lab 2 - Exercise 1 - Configure Self-service password reset (SSPR) for user accounts in Azure AD
 
-
 ### Scenario
 
 The Help Desk has indicated that a large number of support tickets are related to password resets. You have been asked to setup a way for users to reset their password on their own. 
 
-
-
 #### Task 1: Enable self-service password reset
 
-1.  Switch to **LON-CL1** and sign in as **Adatum\\Administrator** with the password **Pa55w.rd**.
+1.  Switch to **LON-CL1** and sign in as **Adatum\Azureuser Administrator** with the password as povided in the Environment tab.
 
 2.  On the task bar select **Microsoft Edge**, open Azure by going to `https:/portal.azure.com/`.  Login as Holly Dickson from the previous lab. Navigate to **Azure Active Directory**
-    
-
+        
 3.  In the navigation pane under **Manage** select **Users**, then select **Password reset**.
 
 4.  In the **Password reset | Properties** window, select **All** to enable self-service password reset to **All** users. Select **Save**.

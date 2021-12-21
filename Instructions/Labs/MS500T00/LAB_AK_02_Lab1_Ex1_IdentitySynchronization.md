@@ -14,7 +14,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 1.  At the Windows PowerShell prompt, type the following command, and then press Enter:
 
 		Set-ExecutionPolicy Unrestricted  
-1.  To confirm the execution policy change, enter **A** for Yes to All press Enter key.
+1.  To confirm the execution policy change, Select **Yes to All**.
 
 		
 	  ![](../Media/29.png)

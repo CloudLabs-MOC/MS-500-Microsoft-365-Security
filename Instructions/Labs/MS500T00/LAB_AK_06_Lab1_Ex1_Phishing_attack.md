@@ -33,7 +33,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 10.  Close the browser session.  Open a new browser and open the Office 365 Security & Compliance portal and login again as Holly Dickson.  Now you should be asked for multi-factor credentials as part of the login process.
 
-	**Note:** it may take several minutes for this MFA setting to propagate your tenant.  If the **Launch Attack** button is not available in Attack Simulator then wait a few minutes and login again as Holly Dickson. If you are not able to satisfy the MFA requirements with your own mobile device you will not be able to complete this lab.
+**Note:** it may take several minutes for this MFA setting to propagate your tenant.  If the **Launch Attack** button is not available in Attack Simulator then wait a few minutes and login again as Holly Dickson. If you are not able to satisfy the MFA requirements with your own mobile device you will not be able to complete this lab.
 
 ### Task 2: Configure and launch a Spear Phishing attack
 
@@ -65,7 +65,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 1.  Open a new browser window in InPrivate or incognito mode and browse to `https://office.com`.
  
-1.  Log in as the user Patti Fernandez **PattiF@M365xZZZZZZ.onmicrosoft.com** where ZZZZZZ is your specific Office 365 tenant.  Patti's password is likely the same as the MOD administrator's password provided by your lab hosting providor.
+1.  Log in as the user Patti Fernandez **PattiF@ZZZZZZ.onmicrosoft.com** where ZZZZZZ is your specific Office 365 tenant.  Patti's password is likely the same as the MOD administrator's password provided by your lab hosting providor.
 
 1.  Click the Outlook icon to open Microsoft Outlook for Patti. You should see a spear phishing email that includes the details you just entered in the previous task.
 
@@ -73,7 +73,9 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 ### Task 4: Review the results
 
-1. In your browser session where you are logged in as Holly Dickson go back to the [Attack simulation training](https://security.microsoft.com/attacksimulator). Click the **Simulations** tab.
+1. In your browser session where you are logged in as Holly Dickson go back to the https://protection.office.com. Select the **Threat Management** tab.
+
+1. Under **Threat Management** tab, select the **Attack Simulator**.
 
 1. In the Spear Phishing (Credentials Harvest) area click **Attack Details**.  Notice in the Attack History area it lists how many users were compromised by the attack.
 

@@ -22,7 +22,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 ### Task 2 - Enable Directory Synchronization
 
 1.  Open your browser and go to `https://portal.office.com/`   
-2.  Sign in as **holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) In the **Enter password** window, enter the password provided by your lab hosting provider.
+2.  Sign in as **holly@ZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) In the **Enter password** window, enter the password provided by your lab hosting provider.
 3.  Click **Admin** to go to the Microsoft 365 admin center.
 
 	![](../Media/30.png)
@@ -49,20 +49,20 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 
 		
 	  ![](../Media/34.png)
-5.	On the **Connect to Azure AD** screen enter your Office 365 admin username of **holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and enter the password provided by your lab hosting provider and click Next.   
-6.	If there is a pop up sign in window **Connect to AD DS** screen enter your domain administrator **Admin@M365xZZZZZZ.onmicrosoft.com** and password `ycYoe&L20a%%`.
+4.	On the **Connect to Azure AD** screen enter your Office 365 admin username of **holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and enter the password provided by your lab hosting provider and click Next.  
 
-		
-	  ![](../Media/35.png)
-8.	select **Next**.   
-9.	On the **Connect to AD DS** screen enter your domain administrator **ADATUM\azureuser** and password given in Environment details page and select **Next**.
+          ![](../Media/35.png)
+5.	If there is a pop up sign in window **Connect to AD DS** screen enter your domain administrator **Admin@ZZZZZZ.onmicrosoft.com** and password that is provided in the **Environment Details** tab 
+
+6.	select **Next**.   
+7.	On the **Connect to AD DS** screen enter your domain administrator **ADATUM\azureuser** and password given in Environment details page and select **Next**.
 
 		
 	  ![](../Media/36.png)
-11.	Select **Continue without matching all UPN suffixes to verified domains** checkbox. Select **Next** on the Azure AD sign-in configuration screen.   
-12.	On the **Ready to configure** screen make sure the check box for **Start the synchronization process when configuration completes** is marked and select **Install**.   
-13.	Wait for the installation to complete (this may take several minutes).   
-14.	Select **Exit**.   
+8.	Select **Continue without matching all UPN suffixes to verified domains** checkbox. Select **Next** on the Azure AD sign-in configuration screen.   
+9.	On the **Ready to configure** screen make sure the check box for **Start the synchronization process when configuration completes** is marked and select **Install**.   
+10.	Wait for the installation to complete (this may take several minutes).   
+11.	Select **Exit**.   
 
 		
 	   ![](../Media/37.png)
@@ -70,7 +70,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 ### Task 4 - Validate the results of directory synchronization and license a user. 
 
 1.	To verify the new user you created open the Office 365 Admin Center in the browser by typing `https://portal.office.com` in the address bar.  
-2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@M365xZZZZZZ.onmicrosoft.com**, (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and enter the password provided by your lab hosting provider.
+2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@ZZZZZZ.onmicrosoft.com**, (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and enter the password provided by your lab hosting provider.
 3.	Navigate to the **Active Users**.  
 
 		

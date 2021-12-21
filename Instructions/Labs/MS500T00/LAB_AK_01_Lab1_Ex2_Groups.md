@@ -56,7 +56,7 @@ In this task, you will create two new groups and then manage the groups by assig
 
 1. In the **Review and finish adding group** window, review the content that you entered. If everything is correct, select **Create group**; otherwise, select **Back** and fix anything that needs correction (or select **Edit** under the specific area that needs adjustment).
 
-1. On the **New group created** window, note the comment at the top of the page that it may take 5 minutes for the new group to appear in the list of groups. </br>
+1. On the **New group created** window, note the comment at the top of the page that it may take less than 5 minutes for the new group to appear in the list of groups. </br>
 
 	Select **Close**. This returns you to the **Groups** page. 
 
@@ -70,9 +70,9 @@ In this task, you will create two new groups and then manage the groups by assig
 
 	![](../Media/6.png)
 
-	**Note:** there is no owner, email address, or privacy setting for Security groups
+	**Note:** There is no owner, email address, or privacy setting for Security groups
 
-1. If either of the two new groups do not appear in the **Groups** list, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional few minutes for both groups to appear.
+1. **Inside Sales** group do appear under **Microsoft 365** tab and **IT Admins** group do appear under **security** tab, If its not appear, do wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional few minutes for both groups to appear.
 
 	**Note:** The IT admins group does not have a group email address because it's a Security group. Two additional group types are Mail-enabled Security groups and Distribution groups. We did not use either of these group types in this lab because it can take up to an hour for these two types of groups to appear in the Groups list; whereas, Office 365 groups and Security groups usually take just a matter of minutes to appear. 
 

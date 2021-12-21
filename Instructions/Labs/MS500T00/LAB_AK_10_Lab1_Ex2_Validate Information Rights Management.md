@@ -4,9 +4,9 @@ In this exercise, you will learn how to validate Information Rights Management f
  
 ### Task 1 - Validate Information Rights Management for Exchange Online
 
-In the prior exercise, you set up Information Rights Management in Exchange Online for Adatum. In this exercise, you will validate that configuration by sending a protected email from Holly Dickson to Alex Wilber. You will then log into Alex’s mailbox on the Client 1 VM (**LON-CL1**), open the email, and verify that it’s protected.  
+In the prior exercise, you set up Information Rights Management in Exchange Online for Adatum. In this exercise, you will validate that configuration by sending a protected email from Holly Dickson to Alex Wilber. You will then log into Alex’s mailbox on the Client VM (**LON-CL1**), open the email, and verify that it’s protected.  
 
-1. On the Client 1 VM (**LON-CL1**), you should still be logged into the Microsoft 365 admin center as Holly Dickson. In your **Microsoft Edge** browser, you should still have the **Office 365 home** page open on a tab. Select the **Office 365 home page** tab, and then select **Outlook.** **Note**: If you are prompted to select a time zone, then choose one and select **Save**. 
+1. On the Client VM (**LON-CL1**), you should still be logged into the Microsoft 365 admin center as Holly Dickson. In your **Microsoft Edge** browser, you should still have the **Office 365 home** page open on a tab. Select the **Office 365 home page** tab, and then select **Outlook.** **Note**: If you are prompted to select a time zone, then choose one and select **Save**. 
 
 4. At the top of the left navigation pane, select **New message** to create a new email.
 
@@ -125,7 +125,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 21. In the **Share ‘Marketing’** window, in the **Invite people** box, enter `Alex Wilber`. Select **Alex Wilber** that appears in a drop-down menu, and then select **Share**.
 
-22. Now that Holly has created this new SharePoint site and used IRM to restrict permissions on the site, she has asked Alex Wilber to test this site to validate whether IRM is working for SharePoint Online. Alex will perform this test on the Client 1 (**LON-CL1**) VM.<br/>
+22. Now that Holly has created this new SharePoint site and used IRM to restrict permissions on the site, she has asked Alex Wilber to test this site to validate whether IRM is working for SharePoint Online. Alex will perform this test on the Client VM (**LON-CL1**) VM.<br/>
 
 	Switch to the **LON-CL1** VM, where you should still be logged into the Microsoft 365 admin center as Alex from the prior task.  
 

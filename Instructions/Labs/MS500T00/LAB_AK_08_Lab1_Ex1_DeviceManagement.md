@@ -9,19 +9,19 @@ In this exercise you will verify that Adatum has installed the Enterprise Mobili
 
 In this task you will verify that Adatum has installed the Enterprise Mobility + Security E5 product and you will check how many licenses are available. You will then verify that a license has been assigned to your test user accounts, and you will assign a license to Holly Dickson.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account and into Microsoft 365 as Holly Dickson **(holly@M365xZZZZZZ.onmicrosoft.com)** with a password of **Pa55w.rd**.
+1. Log into your Client 1 VM (LON-CL1) as the **Adatum\Azureuser Administrator** account. 
 
-2. In **Microsoft Edge**, you should still have a tab open to the **Microsoft 365 admin center**; if so, select that tab now. If not, enter **https://portal.office.com**, sign in as **Holly**, and in the **Microsoft Office Home** page, select **Admin**.
+1. In **Microsoft Edge**, open **https://portal.office.com**, sign in as as Holly Dickson **(holly@M365xZZZZZZ.onmicrosoft.com)** with a password as provided in the Environment tab, and in the **Microsoft Office Home** page, select **Admin**.
 
    ![](../Media/82.png)
 
-3. In the **Microsoft 365 admin center**, select **Billing** in the left navigation pane, and then under it, select **Licenses**.
+1. In the **Microsoft 365 admin center**, select **Billing** in the left navigation pane, and then under it, select **Licenses**.
 
-4. On the **Licenses** page, select **Enterprise Mobility + Security E5.**
+1. On the **Licenses** page, select **Enterprise Mobility + Security E5.**
 
    ![](../Media/83.png)
 
-5. In the **Enterprise Mobility + Security E5** page, under the list of users, verify that your pilot team members – **Alex Wilber**, **Joni Sherman**, **Lynne Robbins**, and the **MOD Administrator** – were each assigned a license.
+1. In the **Enterprise Mobility + Security E5** page, under the list of users, verify that your pilot team members – **Alex Wilber**, **Joni Sherman**, **Lynne Robbins**, and the **MOD Administrator** – were each assigned a license.
 
    ![](../Media/84.png)
 

@@ -69,6 +69,7 @@ If the device does not meet these requirement, the device should be marked as no
 1. Scroll left to the **Enroll devices | Enrollment restrictions** blade. In the **Device Limit Restrictions** section, click **All Users** and then click **Properties**.
 
     ![](../Media/98.png)
+    
     ![](../Media/99.png)
 
 1. In the **Device limit** section, click **Edit**, then change the value to **3**.
@@ -114,7 +115,7 @@ When devices are non-compliant, they should not be able to access their e-mail. 
 
 #### Task 3: Verify that the conditional access policy is working
 
-1.  Open a new Microsoft Edge tab, then and open `https://portal.office.com` with the **Odl_User_id@yourtenant.onmicrosoft.com** with the password as provided in the Environment tab..
+1.  Open a new Microsoft Edge tab, then and open `https://portal.office.com` with the **Odl_User_id@yourtenant.onmicrosoft.com** with the password as provided in the Environment tab.
 
 1.  Click the **Outlook** icon. 
 
@@ -124,7 +125,7 @@ When devices are non-compliant, they should not be able to access their e-mail. 
 
 1.  **Close** the browser window.
 
-1.  Return to **LON-CL1** and open EndPoint Manager. In Microsoft Edge, type `https://endpoint.microsoft.com` in the  address bar, and then press **Enter**. Sign in as as **admin\@yourtenant.onmicrosoft.com** with the default tenant password.
+1. Open EndPoint Manager. In Microsoft Edge, type `https://endpoint.microsoft.com` in the  address bar, and then press **Enter**. Sign in as as **Odl_user_id@yourtenant.onmicrosoft.com** with password as provided in the Environment tab.
 
 1.  Click **Devices** and then click **Conditional access**. Click the ellipses next to policy "Conditional1" and click **Delete**.  Click **Yes** to confirm deletion.  Note: If you don't delete this policy it will interfere with later labs.
 

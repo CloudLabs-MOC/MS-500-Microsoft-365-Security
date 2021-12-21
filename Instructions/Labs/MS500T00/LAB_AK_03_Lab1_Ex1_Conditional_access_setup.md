@@ -25,7 +25,7 @@ In your policy, set:
 
      ![Screenshot](../Media/NewConditionalAccessScreen.png)
  
-5.  On the **Conditional Access** page, in the toolbar on the top, click **New Policy**.
+5.  On the **Conditional Access** page, in the toolbar on the top, click **+New Policy** then select Create a new policy.
 
     **Note**: if this is greyed out, refresh the browser session.
 

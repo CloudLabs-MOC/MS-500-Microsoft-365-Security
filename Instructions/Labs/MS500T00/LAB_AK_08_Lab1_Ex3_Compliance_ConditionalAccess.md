@@ -25,10 +25,12 @@ If the device does not meet these requirement, the device should be marked as no
 1.  On the **Create a policy** blade, provide the following values and click **Create**:
 
     -  Platform: **Windows 10 and later**
+    
 
 1.  On the Basics tab, provide the following values and click **Next**:
 
     -  Name: `Compliance1`
+
 
 1.  On the **Compliance settings** tab, click **Device Health** and review the available settings.
 

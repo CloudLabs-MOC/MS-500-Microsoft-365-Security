@@ -91,9 +91,8 @@ You will begin by having Holly create a new SharePoint site collection, configur
 	- Select a template: leave the default value of **Team site (classic experience)** as the selected value
 
 	- Time zone: select the appropriate time zone in which the team site is located 
-
-
-	![](../Media/R4.png)
+	 
+	 ![](../Media/R4.png)
 	
 7. Select **OK**.
 

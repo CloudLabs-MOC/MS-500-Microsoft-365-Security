@@ -7,7 +7,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have Micro
 
 In this exercise, you will add Joni Sherman and Holly Dickson as members of the eDiscovery Manger role, and then you will log into the Client VM as Joni and perform a content search that looks for emails with the keywords related to social security numbers. 
 
-1. In your **Microsoft Edge** browser, if you have the **Security and Compliance Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://protection.office.com`.
+1. In your **Microsoft Edge** browser, if you have the **Security and Compliance Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://protection.office.com`, sign in as as **Holly Dickson (holly@AzureHOLxZZZZZZ.onmicrosoft.com)** with a **password** as provided in the Environment tab.
 
 1. In the **Office 365 Security and Compliance Center**, in the left navigation pane, select **Permissions.**
 

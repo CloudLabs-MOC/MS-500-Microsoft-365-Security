@@ -6,44 +6,44 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 1. On the Domain Controller (**LON-DC1**), select the **Server Manager** icon on the taskbar if it’s already open; otherwise, open it now.
 
-2. In **Server Manager**, select **Tools** in the upper-right menu bar, and in the drop-down menu, select **Group Policy Management.**
+1. In **Server Manager**, select **Tools** in the upper-right menu bar, and in the drop-down menu, select **Group Policy Management.**
 
 	![](../Media/19.png)
 	![](../Media/20.png)
 
-3. Maximize the **Group Policy Management** window, if necessary.
+1. Maximize the **Group Policy Management** window, if necessary.
 
-4. You want to edit the group policy that includes your organization's account lockout policy. If necessary, in the root console tree, expand **Forest:Adatum.com**, then expand **domains**, and then expand **Adatum.com**.  <br/>
+1. You want to edit the group policy that includes your organization's account lockout policy. If necessary, in the root console tree, expand **Forest:Adatum.com**, then expand **domains**, and then expand **Adatum.com**.  <br/>
 
 	![](../Media/21.png)
 
-5. Under **Adatum.com**, right-click on **Default Domain Policy** and then select **Edit** in the menu.
+1. Under **Adatum.com**, right-click on **Default Domain Policy** and then select **Edit** in the menu.
 
 	![](../Media/22.png)
 
-6. Maximize the **Group Policy Management Editor** window.
+1. Maximize the **Group Policy Management Editor** window.
 
-7. In the **Default Domain Policy** tree in the right pane, browse to **Computer Configuration** > **Policies** > **Windows Settings** > **Security Settings** > **Account Policies.**
+1. In the **Default Domain Policy** tree in the right pane, browse to **Computer Configuration** > **Policies** > **Windows Settings** > **Security Settings** > **Account Policies.**
 
-8. In the **Account Policies** folder, select **Account Lockout Policy**.
+1. In the **Account Policies** folder, select **Account Lockout Policy**.
 
-9. As you can see in the right pane, none of the smart lockout parameters have been defined. You are going to use the **Azure AD admin center** to assign these values.   <br/>
+1. As you can see in the right pane, none of the smart lockout parameters have been defined. You are going to use the **Azure AD admin center** to assign these values.   <br/>
 
-10. Open a new browser tab and go to `https://portal.azure.com`.  Sign-in as Holly Dickson if you are not already signed in on another browswer tab. Search for **Azure Active Directory** and click **Azure Active Directory**. 
+1. Open a new browser tab and go to `https://portal.azure.com`.  Sign-in as Holly Dickson if you are not already signed in on another browswer tab. Search for **Azure Active Directory** and click **Azure Active Directory**. 
 
-11. In the **Adatum Corporation | Overview** page, in the middle navigation pane under the **Manage** section, scroll down and select **Security**.
+1. In the **Adatum Corporation | Overview** page, in the middle navigation pane under the **Manage** section, scroll down and select **Security**.
 
 	![](../Media/23.png)
 
-12. In the **Security | Getting started** window, in the middle pane under the **Manage** section, select **Authentication Methods**.
+1. In the **Security | Getting started** window, in the middle pane under the **Manage** section, select **Authentication Methods**.
 
 	![](../Media/24.png)
 
-13. In the **Authentication methods | Policies** page, in the middle pane under the **Manage** section, select **Password protection.**
+1. In the **Authentication methods | Policies** page, in the middle pane under the **Manage** section, select **Password protection.**
 
 	![](../Media/25.png)
 
-14. In the **Authentication methods | Password protection** window, in the detail pane on the right, enter the following information:
+1. In the **Authentication methods | Password protection** window, in the detail pane on the right, enter the following information:
 
 	- In the **Custom smart lockout** section:
 
@@ -65,36 +65,33 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 			- `Never4get!!`
 
-15. Select **Save** on the menu bar at the top of the page.
+1. Select **Save** on the menu bar at the top of the page.
 
 	![](../Media/26.png)
 
-16. You should now test the banned password functionality. Select Holly Dicksons's user icon in the upper right corner of the screen and click **View account**, and in the menu that appears select **Change password**.
+1. You should now test the banned password functionality. Select Holly Dicksons's user icon in the upper right corner of the screen and click **View account**, and in the menu that appears select **Change password**.
 
-17. A new tab will open displaying the **change password** window. Enter `Pa55w.rd` in the **Old password** field, enter `Never4get!!` in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
+1. A new tab will open displaying the **change password** window. Enter `Pa55w.rd` in the **Old password** field, enter `Never4get!!` in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
 
 	![](../Media/28.png)
 
-18. In your browser, close the **Change password** tab. 
+1. In your browser, close the **Change password** tab. 
 
-19. You should now test the lockout threshold functionality. In the **My Dashboard - Azure Active Directory admin center** tab, select Holly Dicksons's user icon in the upper right corner of the screen, and in the menu that appears select **Sign out**.
+1. You should now test the lockout threshold functionality. In the **My Dashboard - Azure Active Directory admin center** tab, select Holly Dicksons's user icon in the upper right corner of the screen, and in the menu that appears select **Sign out**.
 
 	![](../Media/27.png)
 
-20. Once you are signed out as Holly, the **Pick an account** window will appear. Select **Use another account**. 
+1. Once you are signed out as Holly, the **Pick an account** window will appear. Select **Use another account**. 
 
-21. In the **Sign in** window, enter **AllanD@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is the tenant suffix ID assigned to you by your lab hosting provider), and then select **Next**. 
+1. In the **Sign in** window, enter **AllanD@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is the tenant suffix ID assigned to you by your lab hosting provider), and then select **Next**. 
 
-22. On the **Enter password** window, enter any mix of letters and then select **Sign in**. Note the invalid password error message. Repeat this step 2 more times. Since you set the **Lockout threshold** to **3**, note the error message that you receive after the third attempt. Allan's account has been temporarily locked to prevent unauthorized access. <br/>
+1. On the **Enter password** window, enter any mix of letters and then select **Sign in**. Note the invalid password error message. Repeat this step 2 more times. Since you set the **Lockout threshold** to **3**, note the error message that you receive after the third attempt. Allan's account has been temporarily locked to prevent unauthorized access. <br/>
 
 ![](../Media/al22.png)
 
+   **Note:** You will be prohibited from logging in as Allan until after the **90 second lockout duration** that you set earlier. 
 
-
-
-**Note:** You will be prohibited from logging in as Allan until after the **90 second lockout duration** that you set earlier. 
-
-23. After 90 seconds, try logging in again to verify that you can log in. 
+1. After 90 seconds, try logging in again to verify that you can log in. 
 
 # End of lab.
  

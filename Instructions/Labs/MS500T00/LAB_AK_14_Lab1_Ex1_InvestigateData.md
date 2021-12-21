@@ -11,33 +11,33 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
 1. In the **Office 365 Security and Compliance Center**, in the left navigation pane, select **Permissions.**
 
-  ![](../Media/M014.1.png)
+    ![](../Media/M014.1.png)
 
 1. In the **Home &gt; Permissions** page, select the **eDiscovery Manager** check box.
 
-  ![](../Media/M014.2.png)
+    ![](../Media/M014.2.png)
 
 1. In the **eDiscovery Manager** role group window, scroll down to the **eDiscovery Manager** section and select **Edit**.
 
-  ![](../Media/M014.3.png)
+    ![](../Media/M014.3.png)
 
 1. The **Editing Choose eDiscovery Manager** wizard opens. The list should be empty. Select **Choose eDiscovery Manager**.
 
-  ![](../Media/M014.4.png)
+    ![](../Media/M014.4.png)
 
 1. In the **Choose eDiscovery Manager window**, select **(+) Add**.
 
 1. In the list of users that’s displayed, select `Joni Sherman` and `Holly Dickson`, and then select **Add**. 
 
-  ![](../Media/M014.5.png) 
+    ![](../Media/M014.5.png) 
 
    **Note:** You are adding Joni to the eDiscovery Manager role group for later use in this exercise, and you are assigning Holly to the role group for use in the next exercise.
 
 1. You should see a banner with the message **2 members added**. Select **Done** and then **Save**.
  
-  ![](../Media/M014.6.png)
+    ![](../Media/M014.6.png)
 
-  ![](../Media/M014.7.png) 
+    ![](../Media/M014.7.png) 
 
 1. open the new private window on Client 1 VM **(LON-CL1)admin**.and log into Microsoft 365 as **Joni Sherman**. In the **Sign in** window, enter **JoniS@AzureHOLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**. In the **Enter password** window, enter Joni's password (hint: it is probably the same as the MOD password assigned by your lab hoster).
 
@@ -45,35 +45,35 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
 1. In the **Security and Compliance Center**, in the left navigation pane, select **Search**, and then under it select **Content search**.
 
-  ![](../Media/M014.8.png)
+    ![](../Media/M014.8.png)
 
-  ![](../Media/M014.9.png)
+    ![](../Media/M014.9.png)
 
    **Note**: If you cannot see **Search** in the navigation pane yet, you need to reload the browser tab with the **Security and Compliance Center.**
 
 1. On the **Content search** window, in the **Searches** tab, select **(+) Guided search** on the top menu. This will initiate the **New search** wizard.
 
-  ![](../Media/M014.10.png)
+    ![](../Media/M014.10.png)
 
 1. On the Name your search page, enter `Content Search Test` into the **Name** field and then select **Next**.
 
-  ![](../Media/M014.11.png)
+    ![](../Media/M014.11.png)
 
 1. On the Locations page, select **All locations** and then select **Next**.
 
-  ![](../Media/M014.12.png)
+    ![](../Media/M014.12.png)
 
 1. On the **Condition card** page, enter `SSN` press enter and type `social` into the **Keywords** box.  Pressing enter between keywords will separate the words as independent terms in the list. Once the two terms are added select **Next**.
 
-  ![](../Media/M014.13.png)
+    ![](../Media/M014.13.png)
 
 1. On the Review your search page select Done
 
-  ![](../Media/m014.15.png) 
+    ![](../Media/m014.15.png) 
 
 1. Back on the **Searches** tab, the Search query will run. The Status field in the bottom-left corner of the screen will indicate when the query is complete. It may take many minutes for the query to run and the data to be displayed in the right pane. When the content search finishes, you will see all mailbox items that you have created for the sensitive information test of your custom DLP policy. 
  
-  ![](../Media/M014.17.png) 
+    ![](../Media/M014.17.png) 
 
 If you didn't send emails during the DLP lab earlier in the course then no data will appear in this search.  If this happened, while the search is running, you could switch back to **LON-CL1** and send emails with the keyword terms mentioned in this lab to other users in your tenant.  You may have to run this search again to view data if you do that.
 
@@ -94,33 +94,33 @@ In this task, you will create an eDiscovery case with a configured hold and cont
 
 1. In the **Security and Compliance Center**, in the left navigation pane, select **eDiscovery**, and then under it, select **eDiscovery**.
 
-  ![](../Media/M014.20.png) 
+    ![](../Media/M014.20.png) 
 
 1. On the **eDiscovery** window, select **(+) Create a case** on the top menu.
 
-  ![](../Media/M014.21.png) 
+    ![](../Media/M014.21.png) 
 
 1. In the **New case** window, enter `Social Security Violation` into the **Case name** field and select **Save**.
 
-  ![](../Media/M014.22.png) 
+    ![](../Media/M014.22.png) 
 
 1. Back on the **eDiscovery** page, select **Open** that appears to the left of the **Social Security Violation** case.
 
 1. On the **Social Security Violation** window, select the **Holds** tab from the top menu.
 
-  ![](../Media/M014.23.png) 
+    ![](../Media/M014.23.png) 
 
 1. Select **(+) Create** to create a new hold. This initiates the **Create a new hold** wizard.
 
-  ![](../Media/M014.24.png)
+    ![](../Media/M014.24.png)
 
 1. On the **Name your hold** page, enter `Social Security Violation - Content` into the **Name** field and then select **Next**.
 
-  ![](../Media/M014.25.png)
+    ![](../Media/M014.25.png)
 
 1. On the **Choose locations** page, For the location **Exchange email**, select the **Choose users, groups or teams** field.
 
-  ![](../Media/M014.26.png)
+    ![](../Media/M014.26.png)
 
 1. On the **Exchange email** page, select **Choose users, groups, or teams**.
 
@@ -128,35 +128,35 @@ In this task, you will create an eDiscovery case with a configured hold and cont
 
 1. Scroll down on the page, and under **Users, groups, or teams**, select **Holly Dickson** from the search results.
 
-  ![](../Media/M014.27%20(2).png)
+    ![](../Media/M014.27%20(2).png)
 
 1. Select **Choose** and then select **Done**.
 
 1. On the **Choose locations** page, **1 user, group, or team** is displayed to the right of **Exchange email**. Select **Next**.
 
-   ![](../Media/M014.28.png)
+     ![](../Media/M014.28.png)
 
 1. On the **Query conditions** page, enter `SSN` press enter and then type `social` into the **Keywords** box.  This will search for those two terms independently. Then select **Next**.
 
-   ![](../Media/M014.29.png)
+     ![](../Media/M014.29.png)
 
 1. On the **Review your settings** page, review the values and select **Edit** next to any that need to be modified. When you are satisfied with the settings, then click  **submit and then Done**.
 
-   ![](../Media/M014.30.png)
+     ![](../Media/M014.30.png)
 
 1. Back on the **eDiscovery Case overview**, on the **Social Security Violation &gt; Core ED &gt; Hold** page, select the **Searches** tab from the top menu.
 
-   ![](../Media/M014.31.png)
+     ![](../Media/M014.31.png)
 
 1. Select **(+) New search.** and then in the drop-down select **(+) New search.**.
 
-2. In the **New search** window, in the **Search query** enter `Social Security Violation - Search` into the **Name** field and then select **Next**.
+1. In the **New search** window, in the **Search query** enter `Social Security Violation - Search` into the **Name** field and then select **Next**.
 
-   ![](../Media/M014.32.png)
+     ![](../Media/M014.32.png)
 
 1. under **Locations**, select **Locations on hold**.
 
-   ![](../Media/M014.33.png)
+     ![](../Media/M014.33.png)
 
 1. In the **New search** window, in the **Search query** pane on the left, enter `SSN` press enter and then type `social` in the **Keywords** field. 
 

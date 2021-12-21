@@ -1,4 +1,4 @@
-# Module 3 - Lab 1 - Exercise 2 -  MFA Conditional Access (Complete an Azure Multi-Factor Authentication pilot roll out)
+# Module 3 - Lab 1 - Exercise 2 - MFA Conditional Access(Complete an Azure Multi-Factor Authentication pilot roll out)
 
 
 In this exercise you will configure a conditional access policy enabling Azure Multi-Factor Authentication (Azure MFA) when logging in to the Azure portal. The policy is deployed to and tested on a specific group of pilot users. Deployment of Azure MFA using conditional access provides significant flexibility for organizations and administrators compared to the traditional enforced method.

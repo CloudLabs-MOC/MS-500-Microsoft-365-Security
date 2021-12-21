@@ -233,7 +233,7 @@ In this task, you will turn on Information Rights Management (IRM) for SharePoin
 
 **Note:** While you will validate IRM in Exchange and SharePoint in a later lab, you must enable IRM for SharePoint Online now because it can take up to 60 minutes or more for IRM to show up in SharePoint Online. By the time you get to the validation exercise in the later lab, IRM should have finished its internal configuration so you won’t have to wait for it to be present in SharePoint Online.
 
-1. You should still be logged into your domain controller VM as the **LON-DC1\Azureuser admin** account with password: **Pa55w.rd**, and you should still be logged into Microsoft 365 (portal.office.com) as **MOD Administrator**. 
+1. You should still be logged into your domain controller VM as the **LON-DC1\Azureuser admin** account with password as provided in the Environment tab, and you should still be logged into Microsoft 365 (portal.office.com) as **ODL_USER_ID Administrator**. 
 
 1. In the **Microsoft 365 admin center**, scroll down through left navigation pane and under **Admin centers,** select **SharePoint**. This will open the SharePoint admin center.
 

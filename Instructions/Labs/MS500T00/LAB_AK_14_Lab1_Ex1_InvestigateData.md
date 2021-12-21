@@ -57,7 +57,7 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
     ![](../Media/M014.11.png)
 
-1. On the Locations page, select **All locations** and then select **Next**.
+1. On the Locations page, Turn on all the locations  and then select **Next**.
 
     ![](../Media/M014.12.png)
 

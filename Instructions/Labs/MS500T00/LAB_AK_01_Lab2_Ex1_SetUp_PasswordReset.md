@@ -45,7 +45,7 @@ With SSPR enabled and configured, test the SSPR process with a user that's part 
 
 1.   In your web browser at the upper right corner of the page, select your account name, and then select **Sign in with a different account**. 
 
-1.  Sign in as **AllanD@yourtenant.onmicrosoft.com** with the password that was assigned by your lab hosting service.   
+1.  Sign in as **AllanD@yourtenant.onmicrosoft.com** with the password that was provided in the Environment tab.   
 
 1. Browse to the self service password registration page at [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
 
@@ -74,6 +74,7 @@ With SSPR enabled and configured, test the SSPR process with a user that's part 
 1. Enter a **new password** and click **Finish**.
 
     ![](../Media/17.png)
+    
     ![](../Media/18.png)
 
 # Continue to Exercise 2

@@ -49,7 +49,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 
 		
 	  ![](../Media/34.png)
-4.	On the **Connect to Azure AD** screen enter your Office 365 admin username of **holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and enter the password provided by your lab hosting provider and click Next.  
+4.	On the **Connect to Azure AD** screen enter your Office 365 admin username of **holly@ZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and enter the password provided by your lab hosting provider and click Next.  
 
          
 	  ![](../Media/35.png)

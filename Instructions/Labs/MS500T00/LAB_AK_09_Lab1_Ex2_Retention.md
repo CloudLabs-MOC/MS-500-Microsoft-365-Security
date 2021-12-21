@@ -113,17 +113,16 @@ As part of your pilot project for Adatum, you will create a retention policy in 
 
 1. In the **Choose locations** page,  deselect all sliders except for **Exchange email.**. Click **Next**.
 
-5. On the **Decide if you want to retain content, delete it, or both** page, leave the **Retain items for a specific period** option selected, and **7 years**. Do not change these fields. However, in the **Retain the content based on** field, it currently indicates **when it was created**. Select the drop-down arrow for this field and select **when items were last modified**.
+6. On the **Decide if you want to retain content, delete it, or both** page, leave the **Retain items for a specific period** option selected, and **7 years**. Do not change these fields. However, in the **Retain the content based on** field, it currently indicates **when it was created**. Select the drop-down arrow for this field and select **when items were last modified**.
 
 	![](../Media/120.png)
 
-6. Click **Next**.
+7. Click **Next**.
 
 
 
-10. On the **Review your settings** page, review all the settings. If any need to be corrected, select the **Edit** option and make the appropriate correction. Select **Submit** to finish the wizard.
+8. On the **Review your settings** page, review all the settings. If any need to be corrected, select the **Edit** option and make the appropriate correction. Select **Submit** to finish the wizard.
 
-11. Do not close your Client 1 VM or Microsoft Edge. Leave your web browser open as well as all tabs for the next lab.
 
 You have now created a new retention policy in the Security & Compliance Center that retains all Exchange emails from all mailboxes for 7 years after last modification.
 

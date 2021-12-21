@@ -13,7 +13,6 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
   ![](../Media/M014.1.png)
 
-
 1. In the **Home &gt; Permissions** page, select the **eDiscovery Manager** check box.
 
   ![](../Media/M014.2.png)
@@ -28,15 +27,15 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
 1. In the **Choose eDiscovery Manager window**, select **(+) Add**.
 
-  ![](../Media/M014.5.png)
-
 1. In the list of users that’s displayed, select `Joni Sherman` and `Holly Dickson`, and then select **Add**. 
 
-  ![](../Media/M014.6.png) 
+  ![](../Media/M014.5.png) 
 
    **Note:** You are adding Joni to the eDiscovery Manager role group for later use in this exercise, and you are assigning Holly to the role group for use in the next exercise.
 
 1. You should see a banner with the message **2 members added**. Select **Done** and then **Save**.
+ 
+  ![](../Media/M014.6.png)
 
   ![](../Media/M014.7.png) 
 

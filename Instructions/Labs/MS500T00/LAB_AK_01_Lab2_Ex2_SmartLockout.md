@@ -71,6 +71,8 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 1. You should now test the banned password functionality. Select Holly Dicksons's user icon in the upper right corner of the screen and click **View account**, and in the menu that appears select **Change password**.
 
+	![](../Media/27.png)
+
 1. A new tab will open displaying the **change password** window. Enter `Pa55w.rd` in the **Old password** field, enter `Never4get!!` in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
 
 	![](../Media/28.png)
@@ -79,7 +81,6 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 1. You should now test the lockout threshold functionality. In the **My Dashboard - Azure Active Directory admin center** tab, select Holly Dicksons's user icon in the upper right corner of the screen, and in the menu that appears select **Sign out**.
 
-	![](../Media/27.png)
 
 1. Once you are signed out as Holly, the **Pick an account** window will appear. Select **Use another account**. 
 

@@ -5,7 +5,7 @@ In the following lab exercise, you will take on the role of Holly Dickson, Adatu
 **Note:** The VM environment provided by your lab hosting provider comes with ten existing Microsoft 365 user accounts, as well as a number of existing on-premises user accounts. Several of these existing user accounts will be used throughout the labs in this course. This will save you from having to perform the tedious task of creating user accounts, which is typically not a task performed by Security Administrators. It will also provide you with the experience of creating a Microsoft 365 user account in case you are not familiar with the process.
 
 
-### Task 2 – Create and Manage Groups  
+### Task 1 – Create and Manage Groups  
 
 In this task, you will begin implementing Adatum’s Microsoft 365 pilot project as Holly Dickson, Adatum’s new Security Administrator. Therefore, you will begin this task by logging out of Microsoft 365 as the ODL_USER_id Administrator and you will log back in as Holly.<br/>
 

@@ -57,7 +57,8 @@ Holly Dickson is concerned that some users in her organization may require educa
 	![](../Media/77.png)
 	![](../Media/78.png)
 1. Leave the default settings on the **Assign training** screen. Click **Next**.
-1. On the **Training landing page** screen, click **Next**.
+1. On the **Landing page** screen leave default and  click **Next**.
+1. On the Select end user notification select **Microsoft default notification** and then select Delivery preferences to **Deliver during campaign** and click **Next**.
 1. On the **Launch Details** page, ensure that **Launch this simulation as soon as I'm done** is selected. Click **Next**.
 1. On the **Review Simulation** screen, click **Submit**.
 

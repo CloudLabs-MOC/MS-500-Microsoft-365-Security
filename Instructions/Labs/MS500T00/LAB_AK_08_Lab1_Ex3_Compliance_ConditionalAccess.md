@@ -36,8 +36,6 @@ If the device does not meet these requirement, the device should be marked as no
 
 1.  On the **Compliance settings** tab, expand **Device Properties**. In the **Minimum OS version** field, type `10.0.16299.15`.
 
-    ![](../Media/92.png)
-
 1.  On the **Compliance settings** tab, expand **System Security**. Scroll down and set the **Microsoft Defender Antimalware** setting to **Require**. Click **Next**.
 
     ![](../Media/93.png)

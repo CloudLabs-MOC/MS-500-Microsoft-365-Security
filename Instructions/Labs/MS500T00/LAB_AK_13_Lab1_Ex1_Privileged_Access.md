@@ -32,9 +32,7 @@ Before you start using privileged access, determine who needs approval authority
 
 9.  In the **Privileged Access Approval Group** screen click the **Members** tab and then select **View all and manage members**.
 
-  ![](../Media/145.png)
-
-10.  Select **+ Add members**. Search for **MOD Administrator**. Select **MOD Administrator** and click **Add (1)**. Close the **Privileged Access Approval Group** screen to return to the Groups screen.
+10.  Select **+ Add members**. Search for **ODL**. Select **ODL_UserDID** and click **Add (1)**. Close the **Privileged Access Approval Group** screen to return to the Groups screen.
 
 **Note:** Holly Dickson is listed as the owner of the group you just created. She is therefore part of the Privileged Access Approval Group. In practice, and to support the scenario, you would make MOD Administrator the owner of the group and leave Holly out of it to prevent her from being able to approve her own privileged access requests.
 
@@ -68,13 +66,13 @@ It has been decided that Exchange mailbox moves tasks will require privileged ac
 
 5. In the **Add policy** window select the following:
 
-Policy type = **Role**
+    Policy type = **Role**
 
-Policy scope = **Exchange**
+    Policy scope = **Exchange**
 
-Policy name = **Move Mailboxes**
+    Policy name = **Move Mailboxes**
 
-Approval type = **Manual**
+    Approval type = **Manual**
 
 6. Select the **Privileged Access Approval group** as the **Approvers** and select **Create**.  Close the **Request access** window.
 
@@ -92,22 +90,22 @@ In this task you will request access to the Compliance Admin role to attain temp
 
 4. Select **Access Requests** Then **+ Request Access**.  In the **Request Access** screen select the following and then **Create**
 
-Request type:  **Role**
+    Request type:  **Role**
 
-Request scope:  **Exchange**
+    Request scope:  **Exchange**
 
-Request for:  **Move Mailboxes** 
+    Request for:  **Move Mailboxes** 
 
-Duration(hours): `8`
+    Duration(hours): `8`
 
-Comments: `I need to move mailboxes for the new department today`. 
+    Comments: `I need to move mailboxes for the new department today`. 
 
 5. When the access request is done processing select **Close** 
 
 
 ### Task 5 - Approve a privileged access request.
 
-1. Switch to **LON-CL2** virtual machine.  In the Microsoft 365 admin center (`https://admin.microsoft.com`), sign in as **MOD Administrator** the password for this account was assigned by your lab hosting provider. Select **Settings** (you may need to click **... Show all** first) then select **Org settings**.  
+1. Open New Inprivate window. In the Microsoft 365 admin center (`https://admin.microsoft.com`), sign in as **ODL Administrator** the password for this account was assigned by your lab hosting provider. Select **Settings** (you may need to click **... Show all** first) then select **Org settings**.  
 
 2. In the Org settings screen select the **Security & privacy** tab and then select **Privileged access**. 
 

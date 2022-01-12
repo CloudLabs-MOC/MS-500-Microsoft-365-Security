@@ -175,7 +175,7 @@ In this task, you will, and you&#39;ll create an ATP Safe Attachments policy tha
 
 1. Switch back to your Client 1 VM (**LON-CL1**). You should still be logged into your Client 1 VM as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
 
-2. In your **Edge** browser, select the **Office 365 Security &amp; Compliance** tab.
+2. In your **Edge** browser open `https://protection.office.com`, select the **Office 365 Security &amp; Compliance** tab.
 
 3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane under **Threat Management**, select **Policy**.
 

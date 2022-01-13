@@ -13,9 +13,11 @@ In the following task you will make  a user eligible for an Azure AD directory r
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
+1.  Select **Azure AD roles**. 
+
 1.  Select **Roles**. If this is option is still greyed you may need to refresh your browser.
 
-1.  Select `Billing Administrator`.
+1.  Search and select `Billing Administrator`.
 
      ![](../Media/52.png)
 

@@ -9,7 +9,7 @@
 
 1.  Click **Settings** 
 
-1.  Select `Global Administrator`.
+1.  Search and Select `Global Administrator`.
 
 1.  Click **Edit**, scroll down and mark **Require Approval to activate**.  
 

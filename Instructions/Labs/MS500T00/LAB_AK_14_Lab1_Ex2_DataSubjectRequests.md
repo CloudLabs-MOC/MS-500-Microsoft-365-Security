@@ -93,7 +93,6 @@ When someone files a DSR, you typically need to export the results. In this task
 
 	![](../Media/M014.47.png) 
 
-
 1. Switch back to the **eDiscovery Export Tool** and paste the export key (press Ctrl+V) into the first text field.
 
 	![](../Media/M014.48.png) 

@@ -17,7 +17,7 @@ In your policy, set:
 |Grant access | Require multi-factor authentication |
 
  
-1.  Sign in to the Azure Portal `https://portal.azure.com` as Holly Dickson with password: `Pa55w.rd`.
+1.  Sign in to the Azure Portal `https://portal.azure.com` as Holly Dickson and use password provided by the lab host.
 
 2.  In the Azure portal, on the hub menu go to **Azure Active Directory** by using More Services to search if necessary.
 

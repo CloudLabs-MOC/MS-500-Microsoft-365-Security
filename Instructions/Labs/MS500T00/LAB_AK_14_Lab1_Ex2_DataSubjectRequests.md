@@ -97,7 +97,6 @@ When someone files a DSR, you typically need to export the results. In this task
 1. Switch back to the **eDiscovery Export Tool** and paste the export key (press Ctrl+V) into the first text field.
 
 	![](../Media/M014.48.png) 
-
 1. Select the **Browse** button and in the **Browse For Folder** window, navigate to **Documents**. Select **OK**.
 
 1. Start the export process by selecting **Start**.

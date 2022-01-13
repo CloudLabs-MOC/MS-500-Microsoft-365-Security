@@ -33,15 +33,15 @@ When you need to take on an Azure AD directory role, you can request activation 
 
      ![Screenshot](../Media/bd3d79a3-a66d-48a5-8b2e-94c18358b250.png)
 
-1.  Enter an activation reason and click **Activate**
+1.  Enter an activation reason as `I need to look at some invoice` and click **Activate**
 
      ![Screenshot](../Media/b17f972d-8df2-4b78-a361-202bab94dd17.png)
 
-By default, roles do not require approval unless configured explicitly in settings. 
+   By default, roles do not require approval unless configured explicitly in settings. 
 
- If the role does not require approval, it is activated and added to the list of active roles. If you want to use the role right away, follow the steps in the next section.
+   If the role does not require approval, it is activated and added to the list of active roles. If you want to use the role right away, follow the steps in the next section.
 
- If the role requires approval to activate, a notification will appear in the upper right corner of your browser informing you the request is pending approval.
+   If the role requires approval to activate, a notification will appear in the upper right corner of your browser informing you the request is pending approval.
 
 
 ### Task 2: Use a role immediately after activation

@@ -46,7 +46,7 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 
 1. Scroll down to **Actions** section,
 
-1. Click **+ Add and Action*,
+1. Click **+ Add and Action**,
 
 1. Select **Restrict access or encrypt the content in Microsoft 365 locations**
 

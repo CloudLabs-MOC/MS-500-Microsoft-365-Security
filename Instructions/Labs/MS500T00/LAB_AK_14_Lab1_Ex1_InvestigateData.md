@@ -73,9 +73,9 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
  
     ![](../Media/M014.17.png) 
 
-If you didn't send emails during the DLP lab earlier in the course then no data will appear in this search.  If this happened, while the search is running, you could switch back and send emails with the keyword terms mentioned in this lab to other users in your tenant.  You may have to run this search again to view data if you do that.
+1. If you didn't send emails during the DLP lab earlier in the course then no data will appear in this search.  If this happened, while the search is running, you could switch back and send emails with the keyword terms mentioned in this lab to other users in your tenant.  You may have to run this search again to view data if you do that.
 
-You can let the search run while you proceed with the remainder of this exercise. 
+1. You can let the search run while you proceed with the remainder of this exercise. 
 
 1. Leave it and open as well as all browser tabs and continue with the next task.
 

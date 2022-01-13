@@ -67,8 +67,6 @@ Follow these steps if you want to make a role assignment permanent.
 
 You can remove users from role assignments, but make sure there is always at least one user who is a permanent Global Administrator.
 
-
-
 1.  In the Azure Portal, click **All services** and search for and select `Azure AD Privileged Identity Management`.
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)

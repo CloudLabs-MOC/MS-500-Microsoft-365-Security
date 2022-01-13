@@ -23,7 +23,7 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 	- Message area: type `This customer has social security number: 123-45-6789`.
 
 
-![](../Media/142.png)
+
 
 1. Select **Send.**
 
@@ -36,6 +36,8 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 	- Add a subject: `multiple SSN test`
 
 	- Message area: `SSN = 123 45 6789 and another customer SSN 111 11 1111 and a third 222 22 2222`
+
+![](../Media/142.png)
 
 1. Select **Send.**
 

@@ -26,6 +26,17 @@ When you need to take on an Azure AD directory role, you can request activation 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     
+1.  Click **Azure AD roles**.
+
+1.  Click **Quick start** and click **Activate your role**.
+
+1.  On the Billing Administrator role, scroll to the right and click **Activate**.
+     ![Screenshot](../Media/bd3d79a3-a66d-48a5-8b2e-94c18358b250.png)
+
+1.  Click **Verify your identity before proceeding** if this appears here. You only have to authenticate once per session. Run through the wizard to authenticate Patti.
+ 
+1.  Once returned to the Azure Portal, click **All services** and search for and select `Azure AD Privileged Identity Management`.     
 
 1.  Select **Azure AD Roles** then click **Activate your role** on the Quick start blade.
 

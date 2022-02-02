@@ -74,14 +74,10 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 ### Task 4: Review the results
 
-1. In your browser session where you are logged in as Holly Dickson go back to the https://protection.office.com. Select the **Threat Management** tab.
-
-1. Under **Threat Management** tab, select the **Attack Simulator**.
-
-1. In the Spear Phishing (Credentials Harvest) area click **Attack Details**.  Notice in the Attack History area it lists how many users were compromised by the attack.
-
-1. In the Attack History area if you select the Export button it will export a list of users who fell victim to the simulated spear-phishing attack.  
+1. In your browser session where you are logged in as Holly Dickson go back to the [Attack simulation training](https://security.microsoft.com/attacksimulator). Click the **Simulations** tab.
+2. In the simulation details area, notice the Actual and Predicted compromised rates.
+3. Click on the **Spear Phishing** simulation and in the Simulation Impact area, click **View users**.  
     
 	**Note**: Since you can run multiple spear phishing simulation campaigns simultaneously you could create different simulations for different users and groups.  These different simulations might have enticements that are more appropriate for different users.
- 
-
+	
+4. In the list of users select **Export** to export a list of users who fell victim to the simulated spear-phishing attack.

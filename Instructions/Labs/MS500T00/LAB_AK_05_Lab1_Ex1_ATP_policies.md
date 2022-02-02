@@ -137,37 +137,37 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
 7. At the bottom of the detail pane, below the body of the message, is a taskbar. On the taskbar, select the **Insert hyperlink** icon to display the Insert link window.
 
-9. In the **Insert link** window, the text that you highlighted in the body of the message should be displayed in the **Display as** field. In the **Web address (URL)** field, enter the following URL: `http://tailspintoys.com/aboutus/freetoys`.
+8. In the **Insert link** window, the text that you highlighted in the body of the message should be displayed in the **Display as** field. In the **Web address (URL)** field, enter the following URL: `http://tailspintoys.com/aboutus/freetoys`.
 
-10. Select **OK**.
+9. Select **OK**.
 
-11. In the body of the email, the message should still be selected. Click anywhere in the body of the message to remove the highlighting. The color of the text should now be blue and it should be underlined, indicating that this message is hyperlinked to a URL.
+10. In the body of the email, the message should still be selected. Click anywhere in the body of the message to remove the highlighting. The color of the text should now be blue and it should be underlined, indicating that this message is hyperlinked to a URL.
 
-12. Select **Send** in the menu bar that appears above the message (or the **Send** button at the bottom of the page).
+11. Select **Send** in the menu bar that appears above the message (or the **Send** button at the bottom of the page).
 
-13. You now want to open the MOD Administrator&#39;s Inbox in Outlook and validate whether the ATP policy you created in the prior task worked on the email that you just sent from Holly. To do this, you need to **Open new Inprivate window.**
+12. You now want to open the MOD Administrator&#39;s Inbox in Outlook and validate whether the ATP policy you created in the prior task worked on the email that you just sent from Holly. To do this, you need to **Open new Inprivate window.**
 
-14. Enter the following URL in the address bar: `https://outlook.office365.com`
+13. Enter the following URL in the address bar: `https://outlook.office365.com`
 
-15. Since you want to sign in as the MOD Administrator, in the **Sign-in** window, enter **admin@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider).
+14. Since you want to sign in as the MOD Administrator, in the **Sign-in** window, enter **admin@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider).
 
-16. Then select **Next**.
+15. Then select **Next**.
 
-17. In the **Enter password** window, enter the password provided by your lab hosting provider and select **Sign in**.  If you are requested to provice self-service password information click **cancel**.
+16. In the **Enter password** window, enter the password provided by your lab hosting provider and select **Sign in**.  If you are requested to provice self-service password information click **cancel**.
 
-18. Close the **Let Microsoft Edge save and fill your password for this site next time?** banner by selecting **Never**.
+17. Close the **Let Microsoft Edge save and fill your password for this site next time?** banner by selecting **Never**.
 
-19. On the **Stay signed in?** dialog box, select the **Don't show this again** check box and then select **Yes.**
+18. On the **Stay signed in?** dialog box, select the **Don't show this again** check box and then select **Yes.**
 
-20. Close the **Welcome** window that appears.
+19. Close the **Welcome** window that appears.
 
-21. In the MOD Administrator&#39;s **Inbox**, open the email that was sent by Holly.
+20. In the MOD Administrator&#39;s **Inbox**, open the email that was sent by Holly.
 
-22. When you hover over the blue link that appears in the body of the email, you can see a long URL in the bottom of the browser window; this URL starts with `https://nam03.safelinks.protection.outlook.com`.
+21. When you hover over the blue link that appears in the body of the email, you can see a long URL in the bottom of the browser window; this URL starts with `https://nam03.safelinks.protection.outlook.com`.
 
     When you select the hyperlink to open it, a new tab in **Edge** opens that displays the following warning message: **Opening this website might not be safe.** This message indicates that your ATP Safe Links policy is working correctly and access to the URL is blocked with ATP Safe Links.
 
-23. Leave the Inprivate window open and leave Outlook open to the MOD Administrator&#39;s Inbox for later.
+22. Leave the Inprivate window open and leave Outlook open to the MOD Administrator&#39;s Inbox for later.
 
 ### Task 3 – Create a Safe Attachment policy and turn on ATP for SharePoint, OneDrive, and Microsoft Teams
 
@@ -189,7 +189,7 @@ In this task, you will, and you&#39;ll create an ATP Safe Attachments policy tha
 
 7. In the new safe attachments policy window, enter `AttachmentPolicy1` in the **Name** field then select **Next**.
 
-8. In the **Users and domains**, enter `Joni Sherman` in the **Users** field then select **Next**.
+8. In the **Users and domains**, enter `All Company` in the **Users** field then select **Next**.
 
 9. Under the **Safe attachments unknown malware response** section, select **Dynamic Delivery** (this option will still send the email but will hold the attachment until it has been scanned and marked acceptable).
 

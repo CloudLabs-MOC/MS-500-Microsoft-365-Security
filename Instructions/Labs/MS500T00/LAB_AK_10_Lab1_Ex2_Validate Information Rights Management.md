@@ -30,19 +30,25 @@ In the prior exercise, you set up Information Rights Management in Exchange Onli
 
 13. In the **Office 365 home page**, select **Outlook**. 
 
-14. Verify that Alex received an email from Holly that is IRM protected. IRM protected emails display a lock icon to the right of the message. Select the message to display it in the right pane.
+14. On the **Outlook** page, select your **language** and **time zone** and select **Save**. 
 
-15. In the message pane for this email, a message that says **This messsage is encrypted and recipients can't forward it** should appear.
+15. If a **We’ve updated Outlook** window appears, select **Try the new Outlook**. 
 
-16. In the message pane for this email, note how the **Forward** arrow is disabled.
+16. If a **Welcome** window appears, close it. 
+
+17. Verify that Alex received an email from Holly that is IRM protected. IRM protected emails display a lock icon to the right of the message. Select the message to display it in the right pane.
+
+18. In the message pane for this email, a message that says **This messsage is encrypted and recipients can't forward it** should appear.
+
+19. In the message pane for this email, note how the **Forward** arrow is disabled.
 
 	![](../Media/125.png)
 
-17. Select the **ellipsis icon (More actions)** to the right of the disabled Forward arrow. In the menu that appears, note how both the **Forward** and **Print** options are disabled. 
+20. Select the **ellipsis icon (More actions)** to the right of the disabled Forward arrow. In the menu that appears, note how both the **Forward** and **Print** options are disabled. 
 
-18. In your **Edge** browser, close the **Outlook** tab. 
+21. In your **Edge** browser, close the **Outlook** tab. 
 
-19. You want to remain logged into the Office 365 home page as **Alex Wilber** on **LON-CL1** for the next task, so leave the **Office 365 home page** tab open and proceed to the next task.
+22. You want to remain logged into the Office 365 home page as **Alex Wilber** on **LON-CL1** for the next task, so leave the **Office 365 home page** tab open and proceed to the next task.
 
  
 ### Task 2 - Validate Information Rights Management for SharePoint Online

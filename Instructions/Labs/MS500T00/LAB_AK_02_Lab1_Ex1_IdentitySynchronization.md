@@ -65,9 +65,8 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 1.	Wait for the installation to complete (this may take several minutes).   
 1.	Select **Exit**.
 	
-	![](../Media/37.png)  
-
-		
+	 ![](../Media/37.png)  
+	
 ### Task 4 - Validate the results of directory synchronization and license a user. 
 
 1.	To verify the new user you created open the Office 365 Admin Center in the browser by typing `https://portal.office.com` in the address bar.  

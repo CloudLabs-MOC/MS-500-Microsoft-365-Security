@@ -64,7 +64,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 1.	On the **Ready to configure** screen make sure the check box for **Start the synchronization process when configuration completes** is marked and select **Install**.   
 1.	Wait for the installation to complete (this may take several minutes).
 1.	Select **Exit**.
- 	 
+
 	![](../Media/exit.png)
 
 ### Task 4 - Validate the results of directory synchronization and license a user. 

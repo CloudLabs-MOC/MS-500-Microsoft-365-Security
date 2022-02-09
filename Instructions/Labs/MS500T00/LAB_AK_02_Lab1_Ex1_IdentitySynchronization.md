@@ -63,11 +63,11 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 1.	Select **Continue without matching all UPN suffixes to verified domains** checkbox. Select **Next** on the Azure AD sign-in configuration screen.   
 1.	On the **Ready to configure** screen make sure the check box for **Start the synchronization process when configuration completes** is marked and select **Install**.   
 1.	Wait for the installation to complete (this may take several minutes).   
-1.	Select **Exit**.   
+1.	Select **Exit**.
+	
+	![](../Media/37.png)  
 
 		
-	 ![](../Media/37.png)
-
 ### Task 4 - Validate the results of directory synchronization and license a user. 
 
 1.	To verify the new user you created open the Office 365 Admin Center in the browser by typing `https://portal.office.com` in the address bar.  

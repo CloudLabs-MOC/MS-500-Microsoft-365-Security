@@ -125,6 +125,8 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 	- You must run the following command to connect with an authenticated account to use Active Directory cmdlet requests: <br/> 
 	
+		`Install-Module AzureAD`
+		
 		`Connect-AzureAD`   
 
 	- A new window will appear requesting your credentials. Sign in using Holy's Microsoft 365 account of **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) as you created earlier and **Pa55w.rd** as the Password.  

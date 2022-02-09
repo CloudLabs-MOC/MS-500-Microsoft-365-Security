@@ -189,7 +189,7 @@ In this task, you will, and you&#39;ll create an ATP Safe Attachments policy tha
 
 7. In the new safe attachments policy window, enter `AttachmentPolicy1` in the **Name** field then select **Next**.
 
-8. In the **Users and domains**, enter `All Company` in the **Users** field then select **Next**.
+8. In the **Users and domains**, enter `Inside Sales` in the **Group** field then select **Next**.
 
 9. Under the **Safe attachments unknown malware response** section, select **Dynamic Delivery** (this option will still send the email but will hold the attachment until it has been scanned and marked acceptable).
 

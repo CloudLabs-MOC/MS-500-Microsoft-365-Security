@@ -1,3 +1,5 @@
+**This course will be retiring on  **2023/6/30**.  Once course is retired, all GitHub repos will be removed. Thank you.**
+
 # MS-500X: Microsoft 365 Security Administrator
 
 This repository includes lab instructions for the following courses:

@@ -20,7 +20,7 @@ Microsoft Security center constantly reviews active recommendations and calculat
 
 ### Task 1: View the secure score in the Microsoft 365 Security Portal.
 
-1.  Login to **LON-CL1** virtual machine as Administrator with the password: `XBo8MZiKFTstB6G`.  Go to the Microsoft 365 security dashboard `https://security.microsoft.com` and login with Holly's global admin credentials, select **Microsoft Secure score** on the dashboard.
+1.  Login to **LON-CL1** virtual machine as Administrator with the password provided by your lab host.  Go to the Microsoft 365 security dashboard `https://security.microsoft.com` and login with Holly's global admin credentials, select **Microsoft Secure score** on the dashboard.
 
 2.  At the top you can see Secure score highlights:
 

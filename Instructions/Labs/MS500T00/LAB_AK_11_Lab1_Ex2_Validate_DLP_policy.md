@@ -15,7 +15,7 @@ You are now at the point in your pilot project where you want to test policies. 
 
 In the previous exercise, you created a custom DLP policy that searches emails for sensitive information related to U.S. Social Security numbers in your Adatum tenant. In this exercise, you will send an email with a social security number from Holly Dickson to Alex Wilber.
 
-1. Switch to the Client 1 VM (**LON-CL1**), in which you should still be logged into Microsoft 365 as Holly Dickson (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of `XBo8MZiKFTstB6G`. 
+1. Switch to the Client 1 VM (**LON-CL1**), in which you should still be logged into Microsoft 365 as Holly Dickson (**holly@M365xZZZZZZ.onmicrosoft.com)** with the password that you set earlier. 
 
 2. You will now send an email from Holly to Alex; the email will contain US Social Security numbers. Return to **Outlook** `https://outlook.office.com/`.
 
@@ -47,7 +47,7 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 
 9. Switch to the Client 2 VM (**LON-CL2**). 
 
-10. If you need to sign into the VM, the **Admin** account should appear by default, so enter `XBo8MZiKFTstB6G` in the **Password** field to log in. 
+10. If you need to sign into the VM, the **Admin** account should appear by default, so enter the password provided by your lab host in the **Password** field to log in. 
 
 11. Switch to the Client 2 VM (**LON-CL2**).
 

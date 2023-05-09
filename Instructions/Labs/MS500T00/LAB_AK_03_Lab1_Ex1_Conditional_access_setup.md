@@ -24,7 +24,7 @@ In your policy, set:
 |Grant access | Require multi-factor authentication |
 
  
-1.  Sign in to the Azure Portal `https://portal.azure.com` as Holly Dickson with password: `XBo8MZiKFTstB6G`.
+1.  Sign in to the Azure Portal `https://portal.azure.com` as Holly Dickson.
 
 2.  In the Azure portal, on the hub menu go to **Azure Active Directory** by using More Services to search if necessary.
 

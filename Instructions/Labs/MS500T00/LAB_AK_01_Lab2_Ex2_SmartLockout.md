@@ -65,7 +65,7 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 15. You should now test the banned password functionality. Select Holly Dicksons's user icon in the upper right corner of the screen and click **View account**, and in the menu that appears select **Password**.
 
-16. On the **Change password** page, enter `XBo8MZiKFTstB6G` in the **Old password** field, enter `Never4get!!` in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
+16. On the **Change password** page, enter the password you set for this account earlier in the **Old password** field. Enter `Never4get!!` in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
 
 17. You should now test the lockout threshold functionality. On the **My Account** page, select Holly Dicksons's user icon in the upper right corner of the screen, and in the menu that appears select **Sign out**. 
 

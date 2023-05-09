@@ -13,7 +13,7 @@ Certain features within the Microsoft 365 Admin Center are no longer compatible 
 
 1. Hello User, please Switch to MS-500-LON-DC1 click Ctrl+Alt+Delete to activate the Ctrl + Alt + Delete sequence and bring up the logon page.
 
-2. Sign in with ADATUM\Administrator with the Password XBo8MZiKFTstB6G.
+2. Sign in with `ADATUM\Administrator` with the Password provided by your lab host.
 
 3. Open Microsoft Edge and Log into Microsoft 365 Home Page https://portal.office.com/
 

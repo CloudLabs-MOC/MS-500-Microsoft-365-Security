@@ -142,12 +142,8 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 		After configuring this field, Holly’s username should appear as:
 
 		**Holly@M365xZZZZZZ.onmicrosoft.com**  
-	
-	- Password settings: Uncheck the **Automatically create a password** option
 
-	- Password: `XBo8MZiKFTstB6G`
-
-	- Uncheck the **Require this user to change their password when they first sign in** checkbox. 
+	- Password settings: Check the **Automatically create a password** option. Copy the generated password to a location you can remember it for the next task. You will have to change the password upon first login to this account
 
 5. Select **Next**.
 
@@ -210,7 +206,7 @@ In this task, you will turn on Information Rights Management (IRM) for SharePoin
 
 **Note:** While you will validate IRM in Exchange and SharePoint in a later lab, you must enable IRM for SharePoint Online now because it can take up to 60 minutes or more for IRM to show up in SharePoint Online. By the time you get to the validation exercise in the later lab, IRM should have finished its internal configuration so you won’t have to wait for it to be present in SharePoint Online.
 
-1. You should still be logged into your domain controller VM as the **LON-DC1\Admin** account with password: **XBo8MZiKFTstB6G**, and you should still be logged into Microsoft 365 (portal.office.com) as **MOD Administrator**. 
+1. You should still be logged into your domain controller VM as the **LON-DC1\Admin** account, and you should still be logged into Microsoft 365 (portal.office.com) as **MOD Administrator**. 
 
 2. In the **Microsoft 365 admin center**, scroll down through left navigation pane and under **Admin centers,** select **SharePoint**. This will open the SharePoint admin center.
 

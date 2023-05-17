@@ -4,10 +4,18 @@
    
    ![LabEnvironment](../Media/ms-500-image-01.jpg)
    
-1. To get the lab environment details, you can select the Environment Details tab. Additionally, the credentials will also be sent to your email address provided during registration. You can also open the Lab Guide on a separate full window by selecting the **Split Window** button on the bottom right corner.
+1. Select the **Environment Details** tab. This contains your user credentials for the lab.
 
-   ![LabEnvironment](../Media/ms-500-image-02.jpg)
+    **Username:** <inject key="AzureAdUserEmail" />
 
-1. Also, you can start, stop and restart the virtual machines from Resources tab.
+    **Password:** <inject key="AzureAdUserPassword" />
 
-   ![LabEnvironment](../Media/ms-500-image-03.jpg)
+    ![](../images/environment-details.png)
+
+1. The **[DeploymentId]/[DID]** can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the **[DeploymentID]**.
+
+    ![](../images/DID.png)
+
+1. The **Lab Guide** tab contains the instructions for the lab. You will be using it throughout the workshop to perform the lab. Click on Next from the bottom right and follow the instructions to perform the lab.
+
+    ![](../images/labguide-page.png)
